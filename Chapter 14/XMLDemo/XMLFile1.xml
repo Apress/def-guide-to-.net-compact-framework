@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Baseball [
+  <!ELEMENT Name (#PCDATA)>
+  <!ELEMENT LeagueID (#PCDATA)>
+]>
+<Baseball>
+	<League>
+		<Name>American</Name>
+		<LeagueID>10</LeagueID>
+	</League>
+	<League>
+		<Name>National</Name>
+		<LeagueID>11</LeagueID>
+	</League>
+	<Teams>
+		<Team>
+			<Name>Texas <![CDATA[&&]]> Rangers</Name>
+			<Wins>4</Wins>
+			<Losses>5</Losses>
+		</Team>
+		<Team>
+			<Name>Anaheim Angels</Name>
+			<Wins>7</Wins>
+			<Losses>2</Losses>
+		</Team>
+		<Team>
+			<Name>Oakland Athletics</Name>
+			<Wins>5</Wins>
+			<Losses>4</Losses>
+		</Team>
+		<Team>
+			<Name>Seattle Mariners</Name>
+			<Wins>5</Wins>
+			<Losses>4</Losses>
+		</Team>
+	</Teams>
+</Baseball>

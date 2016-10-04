@@ -1,0 +1,46 @@
+
+
+        <DllImport("Coredll.dll")> _
+        Private Shared Function MoveWindow(ByVal Window As IntPtr, ByVal x As Int32, ByVal y As Int32, ByVal Width As Int32, ByVal Height As Int32, ByVal Repaint As Boolean) As Int32
+        End Function
+
+        <DllImport("Coredll.dll")> _
+        Private Shared Function SetForegroundWindow(ByVal Window As IntPtr) As Boolean
+        End Function
+
+        <DllImport("Coredll.dll")> _
+        Private Shared Function GetLastError() As Int32
+        End Function
+
+        <DllImport("Coredll.dll")> _
+        Private Shared Function ShowWindow(ByVal Window As IntPtr, ByVal CmdShow As Int32) As Int32
+        End Function
+
+        <DllImport("Coredll.dll")> _
+        Private Shared Function FindWindow(ByVal ClassName As String, ByVal WindowName As String) As IntPtr
+        End Function
+
+        <DllImport("Coredll.dll")> _
+        Private Shared Function SHFullScreen(ByVal Requester As IntPtr, ByVal State As Int32) As Boolean
+        End Function
+
+
+   Public Const SPI_SETBATTERYIDLETIMEOUT = 251
+    Public Const SPI_GETBATTERYIDLETIMEOUT = 252
+    Public Const SPI_SETEXTERNALIDLETIMEOUT = 253
+    Public Const SPI_GETEXTERNALIDLETIMEOUT = 254
+    'Const SPI_SETWAKEUPIDLETIMEOUT = 255
+    'Const SPI_GETWAKEUPIDLETIMEOUT = 256
+
+    Public Declare Function SystemParametersInfo 
+Lib "Coredll" Alias "SystemParametersInfoW" _
+        (ByVal uAction As Integer, _
+         ByVal uParam As Integer, _
+         ByRef lpvParam As Integer, _
+         ByVal fuWinIni As Integer _
+        ) As Integer
+
+
+
+SystemParametersInfo(SPI_SETBATTERYIDLETIMEOUT, 
+TimeoutInSeconds, 0, 0)

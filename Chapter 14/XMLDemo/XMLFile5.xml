@@ -1,0 +1,24 @@
+<Baseball>
+	<Teams>
+		<Team>
+			<Name>Texas Rangers</Name>
+			<Manager>4</Manager>
+			<Stadium>5</Stadium>
+		</Team>
+		<Team>
+			<Name>Anaheim Angels</Name>
+			<Wins>7</Wins>
+			<Losses>2</Losses>
+		</Team>
+		<Team>
+			<Name>Oakland Athletics</Name>
+			<Wins>5</Wins>
+			<Losses>4</Losses>
+		</Team>
+		<Team>
+			<Name>Seattle Mariners</Name>
+			<Wins>5</Wins>
+			<Losses>4</Losses>
+		</Team>
+	</Teams>
+</Baseball>

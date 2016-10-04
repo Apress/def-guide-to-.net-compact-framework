@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/WebServiceDemo/Demo" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/WebServiceDemo/Demo" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/WebServiceDemo/Demo">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="CalcPay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Hours" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="Rate" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcPayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalcPayResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StructureDemo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListingNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StructureDemoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StructureDemoResult" type="s0:ListingSpecs" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ListingSpecs">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ListingNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Rooms" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Bedrooms" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="Baths" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="Size" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ClassDemo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListingNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClassDemoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassDemoResult" type="s0:DemoClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DemoClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ListingNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Rooms" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Bedrooms" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="Baths" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="Size" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DsDemo">
+        <s:complexType />
+      </s:element>
+      <s:element name="DsDemoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsDemoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="CalcPaySoapIn">
+    <part name="parameters" element="s0:CalcPay" />
+  </message>
+  <message name="CalcPaySoapOut">
+    <part name="parameters" element="s0:CalcPayResponse" />
+  </message>
+  <message name="StructureDemoSoapIn">
+    <part name="parameters" element="s0:StructureDemo" />
+  </message>
+  <message name="StructureDemoSoapOut">
+    <part name="parameters" element="s0:StructureDemoResponse" />
+  </message>
+  <message name="ClassDemoSoapIn">
+    <part name="parameters" element="s0:ClassDemo" />
+  </message>
+  <message name="ClassDemoSoapOut">
+    <part name="parameters" element="s0:ClassDemoResponse" />
+  </message>
+  <message name="DsDemoSoapIn">
+    <part name="parameters" element="s0:DsDemo" />
+  </message>
+  <message name="DsDemoSoapOut">
+    <part name="parameters" element="s0:DsDemoResponse" />
+  </message>
+  <portType name="DemoSoap">
+    <operation name="CalcPay">
+      <input message="s0:CalcPaySoapIn" />
+      <output message="s0:CalcPaySoapOut" />
+    </operation>
+    <operation name="StructureDemo">
+      <input message="s0:StructureDemoSoapIn" />
+      <output message="s0:StructureDemoSoapOut" />
+    </operation>
+    <operation name="ClassDemo">
+      <input message="s0:ClassDemoSoapIn" />
+      <output message="s0:ClassDemoSoapOut" />
+    </operation>
+    <operation name="DsDemo">
+      <input message="s0:DsDemoSoapIn" />
+      <output message="s0:DsDemoSoapOut" />
+    </operation>
+  </portType>
+  <binding name="DemoSoap" type="s0:DemoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="CalcPay">
+      <soap:operation soapAction="http://tempuri.org/WebServiceDemo/Demo/CalcPay" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="StructureDemo">
+      <soap:operation soapAction="http://tempuri.org/WebServiceDemo/Demo/StructureDemo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ClassDemo">
+      <soap:operation soapAction="http://tempuri.org/WebServiceDemo/Demo/ClassDemo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="DsDemo">
+      <soap:operation soapAction="http://tempuri.org/WebServiceDemo/Demo/DsDemo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Demo">
+    <port name="DemoSoap" binding="s0:DemoSoap">
+      <soap:address location="http://localhost/WebServiceDemo/Demo.asmx" />
+    </port>
+  </service>
+</definitions>

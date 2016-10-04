@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://www.swanandmokashi.com/HomePage/WebServices/StockQuotes.asmx?wsdl" docRef="http://www.swanandmokashi.com/HomePage/WebServices/StockQuotes.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://www.swanandmokashi.com/HomePage/WebServices/StockQuotes.asmx" xmlns:q1="http://swanandmokashi.com/" binding="q1:StockQuotesSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

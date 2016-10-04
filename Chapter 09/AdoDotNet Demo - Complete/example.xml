@@ -1,0 +1,1554 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Customers>
+    <CustomerID>PERIC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Pericles Comidas clásicas</CompanyName>
+    <ContactName>Guillermo Fernández</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Calle Dr. Jorge Cash 321</Address>
+    <City>México D.F.</City>
+    <PostalCode>05033</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 552-3745</Phone>
+    <Fax>(5) 545-3745</Fax>
+    <rowguid>804458c1-d638-44a7-a7b5-006ddcc13d2c</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SEVES</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Seven Seas Imports</CompanyName>
+    <ContactName>Hari Kumar</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>90 Wadhurst Rd.</Address>
+    <City>London</City>
+    <PostalCode>OX15 4NB</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-1717</Phone>
+    <Fax>(171) 555-5646</Fax>
+    <rowguid>c4ec23f1-5e1b-4d3c-8571-02642f42a832</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>DUMON</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Du monde entier</CompanyName>
+    <ContactName>Janine Labrune</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>67, rue des Cinquante Otages</Address>
+    <City>Nantes</City>
+    <PostalCode>44000</PostalCode>
+    <Country>France</Country>
+    <Phone>40.67.88.88</Phone>
+    <Fax>40.67.89.89</Fax>
+    <rowguid>d53257a0-36fa-4b0c-ba2a-02a9795d0ca9</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>CHOPS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Chop-suey Chinese</CompanyName>
+    <ContactName>Yang Wang</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Hauptstr. 29</Address>
+    <City>Bern</City>
+    <PostalCode>3012</PostalCode>
+    <Country>Switzerland</Country>
+    <Phone>0452-076545</Phone>
+    <rowguid>5a3dd9e7-bbca-450a-b8b8-0784b9292c8e</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>ANTON</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Antonio Moreno Taquería</CompanyName>
+    <ContactName>Antonio Moreno</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Mataderos  2312</Address>
+    <City>México D.F.</City>
+    <PostalCode>05023</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-3932</Phone>
+    <rowguid>f56734b9-bfba-4443-a366-07f6b3759198</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>PRINI</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Princesa Isabel Vinhos</CompanyName>
+    <ContactName>Isabel de Castro</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Estrada da saúde n. 58</Address>
+    <City>Lisboa</City>
+    <PostalCode>1756</PostalCode>
+    <Country>Portugal</Country>
+    <Phone>(1) 356-5634</Phone>
+    <rowguid>a0c5d7a9-17f6-47ee-a22c-0c1d4f7ac92c</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>COMMI</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Comércio Mineiro</CompanyName>
+    <ContactName>Pedro Afonso</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>Av. dos Lusíadas, 23</Address>
+    <City>Sao Paulo</City>
+    <Region>SP</Region>
+    <PostalCode>05432-043</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-7647</Phone>
+    <rowguid>abfa9e5c-0738-4cb8-954c-11387e2d5cae</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FRANS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Franchi S.p.A.</CompanyName>
+    <ContactName>Paolo Accorti</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Via Monte Bianco 34</Address>
+    <City>Torino</City>
+    <PostalCode>10100</PostalCode>
+    <Country>Italy</Country>
+    <Phone>011-4988260</Phone>
+    <Fax>011-4988261</Fax>
+    <rowguid>0d945f8f-c52e-4988-9831-11b373fcde51</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FRANK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Frankenversand</CompanyName>
+    <ContactName>Peter Franken</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Berliner Platz 43</Address>
+    <City>München</City>
+    <PostalCode>80805</PostalCode>
+    <Country>Germany</Country>
+    <Phone>089-0877310</Phone>
+    <Fax>089-0877451</Fax>
+    <rowguid>44bb02a2-8a82-4f36-85d8-13f4334f946f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>DRACD</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Drachenblut Delikatessen</CompanyName>
+    <ContactName>Sven Ottlieb</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+    <Address>Walserweg 21</Address>
+    <City>Aachen</City>
+    <PostalCode>52066</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0241-039123</Phone>
+    <Fax>0241-059428</Fax>
+    <rowguid>64973af8-d610-430c-aad5-1531404a90b8</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>QUICK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>QUICK-Stop</CompanyName>
+    <ContactName>Horst Kloss</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Taucherstraße 10</Address>
+    <City>Cunewalde</City>
+    <PostalCode>01307</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0372-035188</Phone>
+    <rowguid>811a92ca-4d8a-445f-a953-15eefa2841ad</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>HUNGC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Hungry Coyote Import Store</CompanyName>
+    <ContactName>Yoshi Latimer</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>City Center Plaza 516 Main St.</Address>
+    <City>Elgin</City>
+    <Region>OR</Region>
+    <PostalCode>97827</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-6874</Phone>
+    <Fax>(503) 555-2376</Fax>
+    <rowguid>b2046e6a-dd56-466a-a6c8-1bd20fb5ae4b</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>CENTC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Centro comercial Moctezuma</CompanyName>
+    <ContactName>Francisco Chang</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Sierras de Granada 9993</Address>
+    <City>México D.F.</City>
+    <PostalCode>05022</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-3392</Phone>
+    <Fax>(5) 555-7293</Fax>
+    <rowguid>e1a9e3d5-65be-411e-abd9-1d135b2c5da3</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>THECR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>The Cracker Box</CompanyName>
+    <ContactName>Liu Wong</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Address>55 Grizzly Peak Rd.</Address>
+    <City>Butte</City>
+    <Region>MT</Region>
+    <PostalCode>59801</PostalCode>
+    <Country>USA</Country>
+    <Phone>(406) 555-5834</Phone>
+    <Fax>(406) 555-8083</Fax>
+    <rowguid>08e9eed2-2c8d-4356-b57a-1d6c51082ab8</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FAMIA</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Familia Arquibaldo</CompanyName>
+    <ContactName>Aria Cruz</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Address>Rua Orós, 92</Address>
+    <City>Sao Paulo</City>
+    <Region>SP</Region>
+    <PostalCode>05442-030</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-9857</Phone>
+    <rowguid>4e20dd35-604f-47c5-adfa-1eb4195ad103</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LETSS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Let's Stop N Shop</CompanyName>
+    <ContactName>Jaime Yorres</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>87 Polk St. Suite 5</Address>
+    <City>San Francisco</City>
+    <Region>CA</Region>
+    <PostalCode>94117</PostalCode>
+    <Country>USA</Country>
+    <Phone>(415) 555-5938</Phone>
+    <rowguid>ca34ccbf-1a03-484b-b9cc-21478acf5b38</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>ALFKI</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Alfreds Futterkiste</CompanyName>
+    <ContactName>Maria Anders</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Obere Str. 57</Address>
+    <City>Berlin</City>
+    <PostalCode>12209</PostalCode>
+    <Country>Germany</Country>
+    <Phone>030-0074321</Phone>
+    <Fax>030-0076545</Fax>
+    <rowguid>3fc614a0-17fd-4980-9bfe-22440cd17be3</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>OLDWO</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Old World Delicatessen</CompanyName>
+    <ContactName>Rene Phillips</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>2743 Bering St.</Address>
+    <City>Anchorage</City>
+    <Region>AK</Region>
+    <PostalCode>99508</PostalCode>
+    <Country>USA</Country>
+    <Phone>(907) 555-7584</Phone>
+    <Fax>(907) 555-2880</Fax>
+    <rowguid>b45b61b6-0e25-4591-925d-2284cb7f8b99</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LAZYK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Lazy K Kountry Store</CompanyName>
+    <ContactName>John Steel</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>12 Orchestra Terrace</Address>
+    <City>Walla Walla</City>
+    <Region>WA</Region>
+    <PostalCode>99362</PostalCode>
+    <Country>USA</Country>
+    <Phone>(509) 555-7969</Phone>
+    <Fax>(509) 555-6221</Fax>
+    <rowguid>2e573fd1-86a1-4860-9e3e-2b796e5878de</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>OTTIK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Ottilies Käseladen</CompanyName>
+    <ContactName>Henriette Pfalzheim</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Mehrheimerstr. 369</Address>
+    <City>Köln</City>
+    <PostalCode>50739</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0221-0644327</Phone>
+    <Fax>0221-0765721</Fax>
+    <rowguid>84865e02-1e41-42ec-814b-2dc8f24feae6</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>THEBI</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>The Big Cheese</CompanyName>
+    <ContactName>Liz Nixon</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>89 Jefferson Way Suite 2</Address>
+    <City>Portland</City>
+    <Region>OR</Region>
+    <PostalCode>97201</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-3612</Phone>
+    <rowguid>b6d16a03-3c2a-4789-a9b3-351af14236d5</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>MORGK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Morgenstern Gesundkost</CompanyName>
+    <ContactName>Alexander Feuer</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Address>Heerstr. 22</Address>
+    <City>Leipzig</City>
+    <PostalCode>04179</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0342-023176</Phone>
+    <rowguid>be487a24-5fcf-49dd-b06d-3535dea45ede</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>RANCH</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Rancho grande</CompanyName>
+    <ContactName>Sergio Gutiérrez</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Av. del Libertador 900</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 123-5555</Phone>
+    <Fax>(1) 123-5556</Fax>
+    <rowguid>5c3463af-1fd3-4467-8664-3898762f2736</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SPLIR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Split Rail Beer &amp; Ale</CompanyName>
+    <ContactName>Art Braunschweiger</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>P.O. Box 555</Address>
+    <City>Lander</City>
+    <Region>WY</Region>
+    <PostalCode>82520</PostalCode>
+    <Country>USA</Country>
+    <Phone>(307) 555-4680</Phone>
+    <Fax>(307) 555-6525</Fax>
+    <rowguid>aef000c1-b024-4929-8641-39ea05966ebe</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>HANAR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Hanari Carnes</CompanyName>
+    <ContactName>Mario Pontes</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Rua do Paço, 67</Address>
+    <City>Rio de Janeiro</City>
+    <Region>RJ</Region>
+    <PostalCode>05454-876</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(21) 555-0091</Phone>
+    <Fax>(21) 555-8765</Fax>
+    <rowguid>56f5f9dd-64c6-4777-b3cb-3ffaff10052f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LINOD</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>LINO-Delicateses</CompanyName>
+    <ContactName>Felipe Izquierdo</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Ave. 5 de Mayo Porlamar</Address>
+    <City>I. de Margarita</City>
+    <Region>Nueva Esparta</Region>
+    <PostalCode>4980</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(8) 34-56-12</Phone>
+    <Fax>(8) 34-93-93</Fax>
+    <rowguid>73fed2e9-b291-475e-8d15-40b41db676af</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>WARTH</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Wartian Herkku</CompanyName>
+    <ContactName>Pirkko Koskitalo</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Torikatu 38</Address>
+    <City>Oulu</City>
+    <PostalCode>90110</PostalCode>
+    <Country>Finland</Country>
+    <Phone>981-443655</Phone>
+    <Fax>981-443655</Fax>
+    <rowguid>46b87fce-33b8-4d1e-a912-41c3a66df857</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>NORTS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>North/South</CompanyName>
+    <ContactName>Simon Crowther</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>South House 300 Queensbridge</Address>
+    <City>London</City>
+    <PostalCode>SW7 1RZ</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-7733</Phone>
+    <Fax>(171) 555-2530</Fax>
+    <rowguid>d14ac89a-8b64-4e89-a2ab-442e97cca405</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SUPRD</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Suprêmes délices</CompanyName>
+    <ContactName>Pascale Cartrain</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Boulevard Tirou, 255</Address>
+    <City>Charleroi</City>
+    <PostalCode>B-6000</PostalCode>
+    <Country>Belgium</Country>
+    <Phone>(071) 23 67 22 20</Phone>
+    <Fax>(071) 23 67 22 21</Fax>
+    <rowguid>b1bf7cf7-7c7a-4a77-b267-47509a016720</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SAVEA</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Save-a-lot Markets</CompanyName>
+    <ContactName>Jose Pavarotti</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>187 Suffolk Ln.</Address>
+    <City>Boise</City>
+    <Region>ID</Region>
+    <PostalCode>83720</PostalCode>
+    <Country>USA</Country>
+    <Phone>(208) 555-8097</Phone>
+    <rowguid>feaa23e1-a669-4b72-b254-4916c9f277d8</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>VAFFE</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Vaffeljernet</CompanyName>
+    <ContactName>Palle Ibsen</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>Smagsloget 45</Address>
+    <City>Århus</City>
+    <PostalCode>8200</PostalCode>
+    <Country>Denmark</Country>
+    <Phone>86 21 32 43</Phone>
+    <Fax>86 22 33 44</Fax>
+    <rowguid>2088de5c-3883-4095-8dd5-4b2cb4ff04be</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SIMOB</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Simons bistro</CompanyName>
+    <ContactName>Jytte Petersen</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Vinbæltet 34</Address>
+    <City>Kobenhavn</City>
+    <PostalCode>1734</PostalCode>
+    <Country>Denmark</Country>
+    <Phone>31 12 34 56</Phone>
+    <Fax>31 13 35 57</Fax>
+    <rowguid>ebdf37b4-4e91-4137-912d-4cc5fcc674fc</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>CACTU</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Cactus Comidas para llevar</CompanyName>
+    <ContactName>Patricio Simpson</ContactName>
+    <ContactTitle>Sales Agent</ContactTitle>
+    <Address>Cerrito 333</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 135-5555</Phone>
+    <Fax>(1) 135-4892</Fax>
+    <rowguid>0c4b1c9b-035a-4e3a-9069-4db64fc2ba59</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>GALED</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Galería del gastrónomo</CompanyName>
+    <ContactName>Eduardo Saavedra</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Rambla de Cataluña, 23</Address>
+    <City>Barcelona</City>
+    <PostalCode>08022</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(93) 203 4560</Phone>
+    <Fax>(93) 203 4561</Fax>
+    <rowguid>73491705-662f-4cd4-add5-4df0db269901</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>MAGAA</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Magazzini Alimentari Riuniti</CompanyName>
+    <ContactName>Giovanni Rovelli</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Via Ludovico il Moro 22</Address>
+    <City>Bergamo</City>
+    <PostalCode>24100</PostalCode>
+    <Country>Italy</Country>
+    <Phone>035-640230</Phone>
+    <Fax>035-640231</Fax>
+    <rowguid>0dd83642-bacb-4256-85a7-52f026444530</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FRANR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>France restauration</CompanyName>
+    <ContactName>Carine Schmitt</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>54, rue Royale</Address>
+    <City>Nantes</City>
+    <PostalCode>44000</PostalCode>
+    <Country>France</Country>
+    <Phone>40.32.21.21</Phone>
+    <Fax>40.32.21.20</Fax>
+    <rowguid>93b62272-93c5-4a3a-8411-58011765e73e</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>ROMEY</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Romero y tomillo</CompanyName>
+    <ContactName>Alejandra Camino</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Gran Vía, 1</Address>
+    <City>Madrid</City>
+    <PostalCode>28001</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 745 6200</Phone>
+    <Fax>(91) 745 6210</Fax>
+    <rowguid>2ff9de0f-d360-47e4-8e73-5a1994ec8834</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>VINET</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Vins et alcools Chevalier</CompanyName>
+    <ContactName>Paul Henriot</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>59 rue de l'Abbaye</Address>
+    <City>Reims</City>
+    <PostalCode>51100</PostalCode>
+    <Country>France</Country>
+    <Phone>26.47.15.10</Phone>
+    <Fax>26.47.15.11</Fax>
+    <rowguid>1e62af04-5981-4222-b71c-5ad13e4d234f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>PARIS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Paris spécialités</CompanyName>
+    <ContactName>Marie Bertrand</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>265, boulevard Charonne</Address>
+    <City>Paris</City>
+    <PostalCode>75012</PostalCode>
+    <Country>France</Country>
+    <Phone>(1) 42.34.22.66</Phone>
+    <Fax>(1) 42.34.22.77</Fax>
+    <rowguid>d59decb5-c781-4876-be3e-5b50496f166d</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SANTG</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Santé Gourmet</CompanyName>
+    <ContactName>Jonas Bergulfsen</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Erling Skakkes gate 78</Address>
+    <City>Stavern</City>
+    <PostalCode>4110</PostalCode>
+    <Country>Norway</Country>
+    <Phone>07-98 92 35</Phone>
+    <Fax>07-98 92 47</Fax>
+    <rowguid>1757d069-c17b-4472-a0ee-5e948cb68ca8</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BSBEV</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>B's Beverages</CompanyName>
+    <ContactName>Victoria Ashworth</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Fauntleroy Circus</Address>
+    <City>London</City>
+    <PostalCode>EC2 5NT</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-1212</Phone>
+    <rowguid>53c7ef8e-3595-41da-8903-6082f8a56a0d</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>QUEEN</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Queen Cozinha</CompanyName>
+    <ContactName>Lúcia Carvalho</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Address>Alameda dos Canàrios, 891</Address>
+    <City>Sao Paulo</City>
+    <Region>SP</Region>
+    <PostalCode>05487-020</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-1189</Phone>
+    <rowguid>8b95122f-4c2f-4e8e-b04c-6c1e90f6b944</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FISSA</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>FISSA Fabrica Inter. Salchichas S.A.</CompanyName>
+    <ContactName>Diego Roel</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>C/ Moralzarzal, 86</Address>
+    <City>Madrid</City>
+    <PostalCode>28034</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 555 94 44</Phone>
+    <Fax>(91) 555 55 93</Fax>
+    <rowguid>b6b7babe-ee40-422f-9670-722cb2bf4b9f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>PICCO</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Piccolo und mehr</CompanyName>
+    <ContactName>Georg Pipps</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>Geislweg 14</Address>
+    <City>Salzburg</City>
+    <PostalCode>5020</PostalCode>
+    <Country>Austria</Country>
+    <Phone>6562-9722</Phone>
+    <Fax>6562-9723</Fax>
+    <rowguid>1b2a31eb-2b33-4450-801a-7421627b3161</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>WILMK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Wilman Kala</CompanyName>
+    <ContactName>Matti Karttunen</ContactName>
+    <ContactTitle>Owner/Marketing Assistant</ContactTitle>
+    <Address>Keskuskatu 45</Address>
+    <City>Helsinki</City>
+    <PostalCode>21240</PostalCode>
+    <Country>Finland</Country>
+    <Phone>90-224 8858</Phone>
+    <Fax>90-224 8858</Fax>
+    <rowguid>2c48cc5c-627f-4f7d-94f2-755869d1d3b6</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>GROSR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>GROSELLA-Restaurante</CompanyName>
+    <ContactName>Manuel Pereira</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>5ª Ave. Los Palos Grandes</Address>
+    <City>Caracas</City>
+    <Region>DF</Region>
+    <PostalCode>1081</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(2) 283-2951</Phone>
+    <Fax>(2) 283-3397</Fax>
+    <rowguid>e93a6d9e-c390-4af6-978f-7704ae14f600</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>ANATR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Ana Trujillo Emparedados y helados</CompanyName>
+    <ContactName>Ana Trujillo</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Avda. de la Constitución 2222</Address>
+    <City>México D.F.</City>
+    <PostalCode>05021</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-4729</Phone>
+    <Fax>(5) 555-3745</Fax>
+    <rowguid>c99b0d79-ec17-4bca-a719-778e59af76f5</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FOLKO</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Folk och fä HB</CompanyName>
+    <ContactName>Maria Larsson</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Åkergatan 24</Address>
+    <City>Bräcke</City>
+    <PostalCode>S-844 67</PostalCode>
+    <Country>Sweden</Country>
+    <Phone>0695-34 67 21</Phone>
+    <rowguid>9935d3f9-dbea-48d3-b9b6-7c56e5448daf</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>QUEDE</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Que Delícia</CompanyName>
+    <ContactName>Bernardo Batista</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Rua da Panificadora, 12</Address>
+    <City>Rio de Janeiro</City>
+    <Region>RJ</Region>
+    <PostalCode>02389-673</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(21) 555-4252</Phone>
+    <Fax>(21) 555-4545</Fax>
+    <rowguid>b5afce3e-9eb9-45fa-957a-7cf564f8292d</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BONAP</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Bon app'</CompanyName>
+    <ContactName>Laurence Lebihan</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>12, rue des Bouchers</Address>
+    <City>Marseille</City>
+    <PostalCode>13008</PostalCode>
+    <Country>France</Country>
+    <Phone>91.24.45.40</Phone>
+    <Fax>91.24.45.41</Fax>
+    <rowguid>c7f30103-addd-47b1-bb35-8078945dcdfd</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>KOENE</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Königlich Essen</CompanyName>
+    <ContactName>Philip Cramer</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>Maubelstr. 90</Address>
+    <City>Brandenburg</City>
+    <PostalCode>14776</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0555-09876</Phone>
+    <rowguid>652af705-51c9-414a-bcd5-81ce9e2c2bf5</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>HUNGO</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Hungry Owl All-Night Grocers</CompanyName>
+    <ContactName>Patricia McKenna</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>8 Johnstown Road</Address>
+    <City>Cork</City>
+    <Region>Co. Cork</Region>
+    <Country>Ireland</Country>
+    <Phone>2967 542</Phone>
+    <Fax>2967 3333</Fax>
+    <rowguid>ffefd685-3a64-4034-89ad-81de09ede1c1</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>TOMSP</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Toms Spezialitäten</CompanyName>
+    <ContactName>Karin Josephs</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Luisenstr. 48</Address>
+    <City>Münster</City>
+    <PostalCode>44087</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0251-031259</Phone>
+    <Fax>0251-035695</Fax>
+    <rowguid>4d4c0440-3318-4e08-af43-82b647318e46</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>RICAR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Ricardo Adocicados</CompanyName>
+    <ContactName>Janete Limeira</ContactName>
+    <ContactTitle>Assistant Sales Agent</ContactTitle>
+    <Address>Av. Copacabana, 267</Address>
+    <City>Rio de Janeiro</City>
+    <Region>RJ</Region>
+    <PostalCode>02389-890</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(21) 555-3412</Phone>
+    <rowguid>f82d969c-dd41-4396-8991-8310f83fca1d</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FOLIG</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Folies gourmandes</CompanyName>
+    <ContactName>Martine Rancé</ContactName>
+    <ContactTitle>Assistant Sales Agent</ContactTitle>
+    <Address>184, chaussée de Tournai</Address>
+    <City>Lille</City>
+    <PostalCode>59000</PostalCode>
+    <Country>France</Country>
+    <Phone>20.16.10.16</Phone>
+    <Fax>20.16.10.17</Fax>
+    <rowguid>d12a117b-429e-47d0-9051-8505a3bc3beb</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>TRAIH</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Trail's Head Gourmet Provisioners</CompanyName>
+    <ContactName>Helvetius Nagy</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>722 DaVinci Blvd.</Address>
+    <City>Kirkland</City>
+    <Region>WA</Region>
+    <PostalCode>98034</PostalCode>
+    <Country>USA</Country>
+    <Phone>(206) 555-8257</Phone>
+    <Fax>(206) 555-2174</Fax>
+    <rowguid>b4e47137-7b6d-4bf3-a6bb-86f5dd2b7ef3</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>WELLI</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Wellington Importadora</CompanyName>
+    <ContactName>Paula Parente</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>Rua do Mercado, 12</Address>
+    <City>Resende</City>
+    <Region>SP</Region>
+    <PostalCode>08737-363</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(14) 555-8122</Phone>
+    <rowguid>7a7938b6-b79f-4387-8c66-8737a305fcb0</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>HILAA</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>HILARION-Abastos</CompanyName>
+    <ContactName>Carlos Hernández</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Carrera 22 con Ave. Carlos Soublette #8-35</Address>
+    <City>San Cristóbal</City>
+    <Region>Táchira</Region>
+    <PostalCode>5022</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(5) 555-1340</Phone>
+    <Fax>(5) 555-1948</Fax>
+    <rowguid>3929460e-be32-459c-b373-8e847d449231</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>ERNSH</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Ernst Handel</CompanyName>
+    <ContactName>Roland Mendel</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>Kirchgasse 6</Address>
+    <City>Graz</City>
+    <PostalCode>8010</PostalCode>
+    <Country>Austria</Country>
+    <Phone>7675-3425</Phone>
+    <Fax>7675-3426</Fax>
+    <rowguid>9bc81091-dd83-4d3f-ab9e-8f0b7b016bfb</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BLONP</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Blondesddsl père et fils</CompanyName>
+    <ContactName>Frédérique Citeaux</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>24, place Kléber</Address>
+    <City>Strasbourg</City>
+    <PostalCode>67000</PostalCode>
+    <Country>France</Country>
+    <Phone>88.60.15.31</Phone>
+    <Fax>88.60.15.32</Fax>
+    <rowguid>b84d1378-a1f1-4c9c-a95b-8f2c85b4536e</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>WANDK</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Die Wandernde Kuh</CompanyName>
+    <ContactName>Rita Müller</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Adenauerallee 900</Address>
+    <City>Stuttgart</City>
+    <PostalCode>70563</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0711-020361</Phone>
+    <Fax>0711-035428</Fax>
+    <rowguid>c12fa5d1-63d5-48b7-a4c4-9622f200a649</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LEHMS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Lehmanns Marktstand</CompanyName>
+    <ContactName>Renate Messner</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Magazinweg 7</Address>
+    <City>Frankfurt a.M.</City>
+    <PostalCode>60528</PostalCode>
+    <Country>Germany</Country>
+    <Phone>069-0245984</Phone>
+    <Fax>069-0245874</Fax>
+    <rowguid>9e3914dc-1398-4796-acbe-97717af4e36b</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>ISLAT</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Island Trading</CompanyName>
+    <ContactName>Helen Bennett</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Garden House Crowther Way</Address>
+    <City>Cowes</City>
+    <Region>Isle of Wight</Region>
+    <PostalCode>PO31 7PJ</PostalCode>
+    <Country>UK</Country>
+    <Phone>(198) 555-8888</Phone>
+    <rowguid>9e507e43-5d7c-4350-beee-9a0207fd5c52</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LILAS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>LILA-Supermercado</CompanyName>
+    <ContactName>Carlos González</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>Carrera 52 con Ave. Bolívar #65-98 Llano Largo</Address>
+    <City>Barquisimeto</City>
+    <Region>Lara</Region>
+    <PostalCode>3508</PostalCode>
+    <Country>Venezuela</Country>
+    <Phone>(9) 331-6954</Phone>
+    <Fax>(9) 331-7256</Fax>
+    <rowguid>58d89d1e-8699-4c1d-b4de-9cb513a69a33</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>REGGC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Reggiani Caseifici</CompanyName>
+    <ContactName>Maurizio Moroni</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>Strada Provinciale 124</Address>
+    <City>Reggio Emilia</City>
+    <PostalCode>42100</PostalCode>
+    <Country>Italy</Country>
+    <Phone>0522-556721</Phone>
+    <Fax>0522-556722</Fax>
+    <rowguid>7d8abfab-07a2-44ad-9f59-a431b1c06e81</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>GREAL</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Great Lakes Food Market</CompanyName>
+    <ContactName>Howard Snyder</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>2732 Baker Blvd.</Address>
+    <City>Eugene</City>
+    <Region>OR</Region>
+    <PostalCode>97403</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-7555</Phone>
+    <rowguid>e4c3297b-ea04-466e-92d4-a94ef66e626b</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LONEP</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Lonesome Pine Restaurant</CompanyName>
+    <ContactName>Fran Wilson</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>89 Chiaroscuro Rd.</Address>
+    <City>Portland</City>
+    <Region>OR</Region>
+    <PostalCode>97219</PostalCode>
+    <Country>USA</Country>
+    <Phone>(503) 555-9573</Phone>
+    <Fax>(503) 555-9646</Fax>
+    <rowguid>3976df81-0cff-4ee4-9e9e-ac2a8070b7ff</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>WHITC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>White Clover Markets</CompanyName>
+    <ContactName>Karl Jablonski</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>305 - 14th Ave. S. Suite 3B</Address>
+    <City>Seattle</City>
+    <Region>WA</Region>
+    <PostalCode>98128</PostalCode>
+    <Country>USA</Country>
+    <Phone>(206) 555-4112</Phone>
+    <Fax>(206) 555-4115</Fax>
+    <rowguid>6bdbe54a-bd6b-42ae-aff6-ae0b1ae9aee3</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>RICSU</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Richter Supermarkt</CompanyName>
+    <ContactName>Michael Holz</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>Grenzacherweg 237</Address>
+    <City>Genève</City>
+    <PostalCode>1203</PostalCode>
+    <Country>Switzerland</Country>
+    <Phone>0897-034214</Phone>
+    <rowguid>4ce1e8a3-7651-4a85-b7a4-aec5fa1003c7</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>EASTC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Eastern Connection</CompanyName>
+    <ContactName>Ann Devon</ContactName>
+    <ContactTitle>Sales Agent</ContactTitle>
+    <Address>35 King George</Address>
+    <City>London</City>
+    <PostalCode>WX3 6FW</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-0297</Phone>
+    <Fax>(171) 555-3373</Fax>
+    <rowguid>4916a29d-18af-4511-87c7-af5a0eb50979</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>GODOS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Godos Cocina Típica</CompanyName>
+    <ContactName>José Pedro Freyre</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>C/ Romero, 33</Address>
+    <City>Sevilla</City>
+    <PostalCode>41101</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(95) 555 82 82</Phone>
+    <rowguid>13a7e0ad-6dcd-496c-9190-b1fa34c9fa0a</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>TORTU</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Tortuga Restaurante</CompanyName>
+    <ContactName>Miguel Angel Paolino</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Avda. Azteca 123</Address>
+    <City>México D.F.</City>
+    <PostalCode>05033</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-2933</Phone>
+    <rowguid>7a258f3b-3e50-4d2f-a1ff-b3b31076c076</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>AROUT</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Around the Horn</CompanyName>
+    <ContactName>Thomas Hardy</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>120 Hanover Sq.</Address>
+    <City>London</City>
+    <PostalCode>WA1 1DP</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-7788</Phone>
+    <Fax>(171) 555-6750</Fax>
+    <rowguid>80859fb3-f6ea-4cc2-9ac6-b837c8494596</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>SPECD</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Spécialités du monde</CompanyName>
+    <ContactName>Dominique Perrier</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>25, rue Lauriston</Address>
+    <City>Paris</City>
+    <PostalCode>75016</PostalCode>
+    <Country>France</Country>
+    <Phone>(1) 47.55.60.10</Phone>
+    <Fax>(1) 47.55.60.20</Fax>
+    <rowguid>10b5fc61-0980-477d-a312-b8fbf27341ae</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>CONSH</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Consolidated Holdings</CompanyName>
+    <ContactName>Elizabeth Brown</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Berkeley Gardens 12  Brewery</Address>
+    <City>London</City>
+    <PostalCode>WX1 6LT</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-2282</Phone>
+    <Fax>(171) 555-9199</Fax>
+    <rowguid>b4bcae23-a5d7-47d0-8806-be1a97d04d50</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>WOLZA</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Wolski  Zajazd</CompanyName>
+    <ContactName>Zbyszek Piestrzeniewicz</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>ul. Filtrowa 68</Address>
+    <City>Warszawa</City>
+    <PostalCode>01-012</PostalCode>
+    <Country>Poland</Country>
+    <Phone>(26) 642-7012</Phone>
+    <Fax>(26) 642-7012</Fax>
+    <rowguid>4de5c455-4029-4ecf-9de2-c2c9d63d943c</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>TRADH</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Tradição Hipermercados</CompanyName>
+    <ContactName>Anabela Domingues</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Av. Inês de Castro, 414</Address>
+    <City>Sao Paulo</City>
+    <Region>SP</Region>
+    <PostalCode>05634-030</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-2167</Phone>
+    <Fax>(11) 555-2168</Fax>
+    <rowguid>7c61e0f4-7f18-4194-bae2-cc9a90d46ccc</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LACOR</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>La corne d'abondance</CompanyName>
+    <ContactName>Daniel Tonini</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>67, avenue de l'Europe</Address>
+    <City>Versailles</City>
+    <PostalCode>78000</PostalCode>
+    <Country>France</Country>
+    <Phone>30.59.84.10</Phone>
+    <Fax>30.59.85.11</Fax>
+    <rowguid>1cd58fcc-7ff0-4d46-b508-cf214805a380</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LAUGB</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Laughing Bacchus Wine Cellars</CompanyName>
+    <ContactName>Yoshi Tannamuri</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Address>1900 Oak St.</Address>
+    <City>Vancouver</City>
+    <Region>BC</Region>
+    <PostalCode>V3F 2K1</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(604) 555-3392</Phone>
+    <Fax>(604) 555-7293</Fax>
+    <rowguid>1f7dfd2e-936a-4605-84d9-d24806f5afe6</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BOTTM</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Bottom-Dollar Markets</CompanyName>
+    <ContactName>Elizabeth Lincoln</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>23 Tsawassen Blvd.</Address>
+    <City>Tsawassen</City>
+    <Region>BC</Region>
+    <PostalCode>T2F 8M4</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(604) 555-4729</Phone>
+    <Fax>(604) 555-3745</Fax>
+    <rowguid>8dda3bdf-c3ca-4710-83be-d4418b067602</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>MEREP</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Mère Paillarde</CompanyName>
+    <ContactName>Jean Fresnière</ContactName>
+    <ContactTitle>Marketing Assistant</ContactTitle>
+    <Address>43 rue St. Laurent</Address>
+    <City>Montréal</City>
+    <Region>Québec</Region>
+    <PostalCode>H1J 1C3</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(514) 555-8054</Phone>
+    <Fax>(514) 555-8055</Fax>
+    <rowguid>1e1e9900-e182-4108-b56f-d502e5ff1e5d</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>RATTC</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Rattlesnake Canyon Grocery</CompanyName>
+    <ContactName>Paula Wilson</ContactName>
+    <ContactTitle>Assistant Sales Representative</ContactTitle>
+    <Address>2817 Milton Dr.</Address>
+    <City>Albuquerque</City>
+    <Region>NM</Region>
+    <PostalCode>87110</PostalCode>
+    <Country>USA</Country>
+    <Phone>(505) 555-5939</Phone>
+    <Fax>(505) 555-3620</Fax>
+    <rowguid>44bb27d2-9900-4ce1-8cd2-d5d63ae1a54f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BERGS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Berglunds snabbköp</CompanyName>
+    <ContactName>Christina Berglund</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+    <Address>Berguvsvägen  8</Address>
+    <City>Luleå</City>
+    <PostalCode>S-958 22</PostalCode>
+    <Country>Sweden</Country>
+    <Phone>0921-12 34 65</Phone>
+    <Fax>0921-12 34 67</Fax>
+    <rowguid>4972b6dd-cecb-4f35-a5c6-da51e82aa7e7</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BOLID</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Bólido Comidas preparadas</CompanyName>
+    <ContactName>Martín Sommer</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>C/ Araquil, 67</Address>
+    <City>Madrid</City>
+    <PostalCode>28023</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 555 22 82</Phone>
+    <Fax>(91) 555 91 99</Fax>
+    <rowguid>30a056bc-2508-473e-a34c-dca3cdfe127f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>OCEAN</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Océano Atlántico Ltda.</CompanyName>
+    <ContactName>Yvonne Moncada</ContactName>
+    <ContactTitle>Sales Agent</ContactTitle>
+    <Address>Ing. Gustavo Moncada 8585 Piso 20-A</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 135-5333</Phone>
+    <Fax>(1) 135-5535</Fax>
+    <rowguid>4407c345-0654-464b-ab12-e2ea2904d75f</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>VICTE</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Victuailles en stock</CompanyName>
+    <ContactName>Mary Saveley</ContactName>
+    <ContactTitle>Sales Agent</ContactTitle>
+    <Address>2, rue du Commerce</Address>
+    <City>Lyon</City>
+    <PostalCode>69004</PostalCode>
+    <Country>France</Country>
+    <Phone>78.32.54.86</Phone>
+    <Fax>78.32.54.87</Fax>
+    <rowguid>121555a8-b6fb-4522-89e4-ebbc98003199</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>LAMAI</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>La maison d'Asie</CompanyName>
+    <ContactName>Annette Roulet</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>1 rue Alsace-Lorraine</Address>
+    <City>Toulouse</City>
+    <PostalCode>31000</PostalCode>
+    <Country>France</Country>
+    <Phone>61.77.61.10</Phone>
+    <Fax>61.77.61.11</Fax>
+    <rowguid>3a9e1ced-9e45-46d0-b94e-ef61eeeffeef</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>BLAUS</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Blauer See Delikatessen</CompanyName>
+    <ContactName>Hanna Moos</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Forsterstr. 57</Address>
+    <City>Mannheim</City>
+    <PostalCode>68306</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0621-08460</Phone>
+    <Fax>0621-08924</Fax>
+    <rowguid>7e5d1c65-6228-408b-9d51-ef7b2d9f6eb4</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>GOURL</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Gourmet Lanchonetes</CompanyName>
+    <ContactName>André Fonseca</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>Av. Brasil, 442</Address>
+    <City>Campinas</City>
+    <Region>SP</Region>
+    <PostalCode>04876-786</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-9482</Phone>
+    <rowguid>28d8f81c-279e-4c53-b957-ef7c908caf8a</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>FURIB</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Furia Bacalhau e Frutos do Mar</CompanyName>
+    <ContactName>Lino Rodriguez</ContactName>
+    <ContactTitle>Sales Manager</ContactTitle>
+    <Address>Jardim das rosas n. 32</Address>
+    <City>Lisboa</City>
+    <PostalCode>1675</PostalCode>
+    <Country>Portugal</Country>
+    <Phone>(1) 354-2534</Phone>
+    <Fax>(1) 354-2535</Fax>
+    <rowguid>2dd7e59e-03ad-46b8-8961-f0c2627f3db2</rowguid>
+  </Customers>
+  <Customers>
+    <CustomerID>MAISD</CustomerID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <CompanyName>Maison Dewey</CompanyName>
+    <ContactName>Catherine Dewey</ContactName>
+    <ContactTitle>Sales Agent</ContactTitle>
+    <Address>Rue Joseph-Bens 532</Address>
+    <City>Bruxelles</City>
+    <PostalCode>B-1180</PostalCode>
+    <Country>Belgium</Country>
+    <Phone>(02) 201 24 67</Phone>
+    <Fax>(02) 201 24 68</Fax>
+    <rowguid>11ffc3ae-6dd5-49e1-acd8-fe9f313006de</rowguid>
+  </Customers>
+  <Employees>
+    <EmployeeID>2</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Fuller</LastName>
+    <FirstName>Andrew</FirstName>
+    <Title>Vice President, Sales</Title>
+    <TitleOfCourtesy>Dr.</TitleOfCourtesy>
+    <BirthDate>1952-02-19T00:00:00.0000000-05:00</BirthDate>
+    <HireDate>1992-08-14T00:00:00.0000000-04:00</HireDate>
+    <Address>908 W. Capital Way</Address>
+    <City>Tacoma</City>
+    <Region>WA</Region>
+    <PostalCode>98401</PostalCode>
+    <Country>USA</Country>
+    <HomePhone>(206) 555-9482</HomePhone>
+    <Extension>3457</Extension>
+    <rowguid>23d3ce81-6f7e-4406-8a9a-8743f64b7fff</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>3</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Leverling</LastName>
+    <FirstName>Janet</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Ms.</TitleOfCourtesy>
+    <BirthDate>1963-08-30T00:00:00.0000000-04:00</BirthDate>
+    <HireDate>1992-04-01T00:00:00.0000000-05:00</HireDate>
+    <Address>722 Moss Bay Blvd.</Address>
+    <City>Kirkland</City>
+    <Region>WA</Region>
+    <PostalCode>98033</PostalCode>
+    <Country>USA</Country>
+    <HomePhone>(206) 555-3412</HomePhone>
+    <Extension>3355</Extension>
+    <ReportsTo>2</ReportsTo>
+    <rowguid>d4983218-dd17-4246-b180-e70571693ade</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>1</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Davolio</LastName>
+    <FirstName>Nancy</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Ms.</TitleOfCourtesy>
+    <BirthDate>1948-12-08T00:00:00.0000000-05:00</BirthDate>
+    <HireDate>1992-05-01T00:00:00.0000000-04:00</HireDate>
+    <Address>507 - 20th Ave. E.
+Apt. 2A</Address>
+    <City>Seattle</City>
+    <Region>WA</Region>
+    <PostalCode>98122</PostalCode>
+    <Country>USA</Country>
+    <HomePhone>(206) 555-9857</HomePhone>
+    <Extension>5467</Extension>
+    <ReportsTo>2</ReportsTo>
+    <rowguid>6bf0aa28-3dff-4940-a3ce-ec357d499749</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>4</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Peacock</LastName>
+    <FirstName>Margaret</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Mrs.</TitleOfCourtesy>
+    <BirthDate>1937-09-19T00:00:00.0000000-04:00</BirthDate>
+    <HireDate>1993-05-03T00:00:00.0000000-04:00</HireDate>
+    <Address>4110 Old Redmond Rd.</Address>
+    <City>Redmond</City>
+    <Region>WA</Region>
+    <PostalCode>98052</PostalCode>
+    <Country>USA</Country>
+    <HomePhone>(206) 555-8122</HomePhone>
+    <Extension>5176</Extension>
+    <ReportsTo>2</ReportsTo>
+    <rowguid>ddd86a92-e455-4422-946a-39f958d51f90</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>8</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Callahan</LastName>
+    <FirstName>Laura</FirstName>
+    <Title>Inside Sales Coordinator</Title>
+    <TitleOfCourtesy>Ms.</TitleOfCourtesy>
+    <BirthDate>1958-01-09T00:00:00.0000000-05:00</BirthDate>
+    <HireDate>1994-03-05T00:00:00.0000000-05:00</HireDate>
+    <Address>4726 - 11th Ave. N.E.</Address>
+    <City>Seattle</City>
+    <Region>WA</Region>
+    <PostalCode>98105</PostalCode>
+    <Country>USA</Country>
+    <HomePhone>(206) 555-1189</HomePhone>
+    <Extension>2344</Extension>
+    <ReportsTo>2</ReportsTo>
+    <rowguid>c14a9bc0-7b63-4b80-9913-5e03453b8b4a</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>5</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Buchanan</LastName>
+    <FirstName>Steven</FirstName>
+    <Title>Sales Manager</Title>
+    <TitleOfCourtesy>Mr.</TitleOfCourtesy>
+    <BirthDate>1955-03-04T00:00:00.0000000-05:00</BirthDate>
+    <HireDate>1993-10-17T00:00:00.0000000-04:00</HireDate>
+    <Address>14 Garrett Hill</Address>
+    <City>London</City>
+    <PostalCode>SW1 8JR</PostalCode>
+    <Country>UK</Country>
+    <HomePhone>(71) 555-4848</HomePhone>
+    <Extension>3453</Extension>
+    <ReportsTo>2</ReportsTo>
+    <rowguid>5e4f52ba-bb16-487e-a5f7-77c8554049ba</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>9</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Dodsworth</LastName>
+    <FirstName>Anne</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Ms.</TitleOfCourtesy>
+    <BirthDate>1966-01-27T00:00:00.0000000-05:00</BirthDate>
+    <HireDate>1994-11-15T00:00:00.0000000-05:00</HireDate>
+    <Address>7 Houndstooth Rd.</Address>
+    <City>London</City>
+    <PostalCode>WG2 7LT</PostalCode>
+    <Country>UK</Country>
+    <HomePhone>(71) 555-4444</HomePhone>
+    <Extension>452</Extension>
+    <ReportsTo>5</ReportsTo>
+    <rowguid>49d6c116-9c30-4174-b81b-d1e822d04493</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>6</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>Suyama</LastName>
+    <FirstName>Michael</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Mr.</TitleOfCourtesy>
+    <BirthDate>1963-07-02T00:00:00.0000000-04:00</BirthDate>
+    <HireDate>1993-10-17T00:00:00.0000000-04:00</HireDate>
+    <Address>Coventry House
+Miner Rd.</Address>
+    <City>London</City>
+    <PostalCode>EC2 7JR</PostalCode>
+    <Country>UK</Country>
+    <HomePhone>(71) 555-7773</HomePhone>
+    <Extension>428</Extension>
+    <ReportsTo>5</ReportsTo>
+    <rowguid>f4ef6486-8dad-4e61-bb17-27928f480352</rowguid>
+  </Employees>
+  <Employees>
+    <EmployeeID>7</EmployeeID>
+    <s_Generation>2</s_Generation>
+    <s_RowLineage>x68o3gEAAAA=</s_RowLineage>
+    <LastName>King</LastName>
+    <FirstName>Robert</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Mr.</TitleOfCourtesy>
+    <BirthDate>1960-05-29T00:00:00.0000000-04:00</BirthDate>
+    <HireDate>1994-01-02T00:00:00.0000000-05:00</HireDate>
+    <Address>Edgeham Hollow
+Winchester Way</Address>
+    <City>London</City>
+    <PostalCode>RG1 9SP</PostalCode>
+    <Country>UK</Country>
+    <HomePhone>(71) 555-5598</HomePhone>
+    <Extension>465</Extension>
+    <ReportsTo>5</ReportsTo>
+    <rowguid>c47a262c-777b-44f4-9aa0-49d679b1014b</rowguid>
+  </Employees>
+</NewDataSet>

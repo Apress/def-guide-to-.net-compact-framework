@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "CheckBoxDemo", "CheckBoxDemo.vbdproj", "{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}.Debug.ActiveCfg = Debug|Pocket PC
+		{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}.Debug.Build.0 = Debug|Pocket PC
+		{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}.Debug.Deploy.0 = Debug|Pocket PC
+		{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}.Release.ActiveCfg = Release|Pocket PC
+		{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}.Release.Build.0 = Release|Pocket PC
+		{16ED132F-ADAD-4BF4-95CA-7AA0CEDD9426}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

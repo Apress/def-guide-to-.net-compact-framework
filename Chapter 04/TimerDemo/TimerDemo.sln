@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "TimerDemo", "TimerDemo.vbdproj", "{72999230-AE10-4DC4-82E4-8C3EC46CEA00}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{72999230-AE10-4DC4-82E4-8C3EC46CEA00}.Debug.ActiveCfg = Debug|Pocket PC
+		{72999230-AE10-4DC4-82E4-8C3EC46CEA00}.Debug.Build.0 = Debug|Pocket PC
+		{72999230-AE10-4DC4-82E4-8C3EC46CEA00}.Debug.Deploy.0 = Debug|Pocket PC
+		{72999230-AE10-4DC4-82E4-8C3EC46CEA00}.Release.ActiveCfg = Release|Pocket PC
+		{72999230-AE10-4DC4-82E4-8C3EC46CEA00}.Release.Build.0 = Release|Pocket PC
+		{72999230-AE10-4DC4-82E4-8C3EC46CEA00}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

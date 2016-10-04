@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "Graphics", "Graphics.vbdproj", "{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "RoundButton", "..\..\..\..\..\Conferences\VSLive\2003SF\Code\VBVersion\Controls\RoundButton\RoundButton.vbdproj", "{A4CAB562-C0F9-4462-977A-0297B20F26FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}.Debug.ActiveCfg = Debug|Pocket PC
+		{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}.Debug.Build.0 = Debug|Pocket PC
+		{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}.Debug.Deploy.0 = Debug|Pocket PC
+		{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}.Release.ActiveCfg = Release|Pocket PC
+		{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}.Release.Build.0 = Release|Pocket PC
+		{B0BF034D-6E93-4171-8579-D9AE1EC06AAA}.Release.Deploy.0 = Release|Pocket PC
+		{A4CAB562-C0F9-4462-977A-0297B20F26FF}.Debug.ActiveCfg = Debug|Pocket PC
+		{A4CAB562-C0F9-4462-977A-0297B20F26FF}.Debug.Build.0 = Debug|Pocket PC
+		{A4CAB562-C0F9-4462-977A-0297B20F26FF}.Debug.Deploy.0 = Debug|Pocket PC
+		{A4CAB562-C0F9-4462-977A-0297B20F26FF}.Release.ActiveCfg = Release|Pocket PC
+		{A4CAB562-C0F9-4462-977A-0297B20F26FF}.Release.Build.0 = Release|Pocket PC
+		{A4CAB562-C0F9-4462-977A-0297B20F26FF}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

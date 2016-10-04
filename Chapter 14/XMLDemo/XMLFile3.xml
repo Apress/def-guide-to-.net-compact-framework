@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Application>
+    <Settings>
+		<Setting Name="ConnectString" Value="provider=sqloledb;data source=antietam;Initial Catalog=apress;" />
+		<Setting Name="URLString" Value="http://fsg-server/ssce20/sscesa20.dll" />
+		<Setting Name="DataSource" Value="DataSource=\Storage Card\Chapter13.sdf" />
+    </Settings>
+</Application>

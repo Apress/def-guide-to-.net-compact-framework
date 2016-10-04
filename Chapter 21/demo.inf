@@ -1,0 +1,115 @@
+; Sample .inf file used to demonstrate creating .cab file.
+; 
+; Copyright © 2002-2003, Larry Roof
+;
+;------------------------------------------------------------------------------------------------------------------
+; Version Section - who built the application
+; NOTE - This is a required section
+;------------------------------------------------------------------------------------------------------------------
+[Version]
+Signature = "$Windows NT$"		; NOTE - do not alter this value
+Provider = "Larry Roof"			; your company name
+CESignature = "$Windows CE$"		; NOTE - do not alter this value
+
+;------------------------------------------------------------------------------------------------------------------
+; CEStrings Section - defines strings substitutes for the application and
+;                               installation directory
+; NOTE - this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[CEStrings]
+AppName   = "Demo"			; the name of your application
+InstallDir   = %CE1%\%AppName%		; default installation directory
+
+;------------------------------------------------------------------------------------------------------------------
+; Strings Section - defines strings substitutes that are used within this file
+; NOTE - this is an optional section
+;------------------------------------------------------------------------------------------------------------------
+[Strings]
+RegistryPath = Software\DGNCF
+
+;------------------------------------------------------------------------------------------------------------------
+; CEDevice Section - provides the device platforms that your application is
+;                              supported under
+; NOTE - this is an optional section
+;------------------------------------------------------------------------------------------------------------------
+[CEDevice]
+UnsupportedPlatforms = pltfrm1
+
+[CEDevice.PPC_3]
+VersionMin = 3.0
+VersionMax = 100.0
+UnsupportedPlatforms = "HPC","HPC Pro"
+
+;------------------------------------------------------------------------------------------------------------------
+; DefaultInstall Section - provides default installation information
+; NOTE -  this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[DefaultInstall]
+CopyFiles = CopyToAppDir,CopyToWindows
+AddReg = RegSettings
+CEShortcuts = Shortcuts
+; CESetupDLL = MySetup.DLL
+; CESelfRegister = MyDLL.DLL
+
+;------------------------------------------------------------------------------------------------------------------
+; CopyFiles Section
+; NOTE -  this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[CopyToAppDir]
+"Sample Help.htm",Help.htm,,0x00000001
+
+[CopyToWindows]
+"Win Game.wav",WinGame.wav,,0x80000000
+
+;------------------------------------------------------------------------------------------------------------------
+; AddReq Section
+; NOTE -  this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[RegSettings]
+HKLM,%RegistryPath%,,0x00000000,alpha
+HKLM,%RegistryPath%,test,0x00010001,3
+HKLM,%RegistryPath%\new,another,0x00010001,6
+
+;------------------------------------------------------------------------------------------------------------------
+; CEShortcuts Section
+; NOTE -  this is an optional section
+;------------------------------------------------------------------------------------------------------------------
+[Shortcuts]
+Sample App,0,sample.exe
+Sample App,0,sample.exe,%InstallDir%
+
+;------------------------------------------------------------------------------------------------------------------
+; SourceDiskNames Section
+; NOTE -  this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[SourceDisksNames]
+1 = ,"Common files",,C:\app\common
+
+[SourceDisksNames.SH3]
+2 = ,"SH3 files",,sh3
+
+[SourceDisksNames.MIPS]
+2 = ,"MIPS files",,mips
+
+;------------------------------------------------------------------------------------------------------------------
+; SourceDiskFiles Section
+; NOTE -  this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[SourceDisksFiles]
+begin.wav = 1
+end.wav = 1
+sample.hlp = 1
+
+[SourceDisksFiles.SH3]
+sample.exe = 2
+
+[SourceDisksFiles.MIPS]
+sample.exe = 2
+
+;------------------------------------------------------------------------------------------------------------------
+; DestinationDirs Section
+; NOTE -  this is a required section
+;------------------------------------------------------------------------------------------------------------------
+[DestinationDirs]
+Files.Common   = 0,%CE1%\My Subdir
+Files.Shared   = 0,%CE2%

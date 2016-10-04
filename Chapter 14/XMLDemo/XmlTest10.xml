@@ -1,0 +1,24 @@
+<Baseball>
+  <Teams>
+    <Team>
+		<Name>Texas Rangers</Name>
+		<Manager>Buck Showalter</Manager>
+		<Stadium>Ballpark in Arlington</Stadium>
+    </Team>
+    <Team>
+		<Name>Anaheim Angels</Name>
+		<Manager>Mike Scioscia</Manager>
+		<Stadium>Edison Field</Stadium>
+    </Team>
+    <Team>
+		<Name>Oakland Athletics</Name>
+		<Manager>Ken Macha</Manager>
+		<Stadium>Network Associates Coliseum</Stadium>
+    </Team>
+    <Team>
+		<Name>Seattle Mariners</Name>
+		<Manager>Bob Melvin</Manager>
+		<Stadium>SAFECO Field</Stadium>
+    </Team>
+  </Teams>
+</Baseball>

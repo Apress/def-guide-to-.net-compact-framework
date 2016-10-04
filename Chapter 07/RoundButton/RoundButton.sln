@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "RoundButton", "RoundButton.vbdproj", "{59807A2D-C4B1-490E-A552-BB7AF42269AC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "ButtonTest", "..\ButtonTest\ButtonTest.vbdproj", "{0C56FF8E-1055-45C2-8896-47C0A4B789A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "ScrollingImage", "..\ScrollingImage\ScrollingImage.vbdproj", "{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{59807A2D-C4B1-490E-A552-BB7AF42269AC}.Debug.ActiveCfg = Debug|Pocket PC
+		{59807A2D-C4B1-490E-A552-BB7AF42269AC}.Debug.Build.0 = Debug|Pocket PC
+		{59807A2D-C4B1-490E-A552-BB7AF42269AC}.Debug.Deploy.0 = Debug|Pocket PC
+		{59807A2D-C4B1-490E-A552-BB7AF42269AC}.Release.ActiveCfg = Release|Pocket PC
+		{59807A2D-C4B1-490E-A552-BB7AF42269AC}.Release.Build.0 = Release|Pocket PC
+		{59807A2D-C4B1-490E-A552-BB7AF42269AC}.Release.Deploy.0 = Release|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Debug.ActiveCfg = Debug|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Debug.Build.0 = Debug|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Debug.Deploy.0 = Debug|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Release.ActiveCfg = Release|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Release.Build.0 = Release|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Release.Deploy.0 = Release|Pocket PC
+		{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}.Debug.ActiveCfg = Debug|Pocket PC
+		{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}.Debug.Build.0 = Debug|Pocket PC
+		{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}.Debug.Deploy.0 = Debug|Pocket PC
+		{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}.Release.ActiveCfg = Release|Pocket PC
+		{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}.Release.Build.0 = Release|Pocket PC
+		{D6611A29-7C1A-4B5A-B57E-BA1CDD62C366}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

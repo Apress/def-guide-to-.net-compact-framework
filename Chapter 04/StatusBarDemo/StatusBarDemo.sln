@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "StatusBarDemo", "StatusBarDemo.vbdproj", "{68B0C732-9592-44BE-9438-84452B179D7B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{68B0C732-9592-44BE-9438-84452B179D7B}.Debug.ActiveCfg = Debug|Pocket PC
+		{68B0C732-9592-44BE-9438-84452B179D7B}.Debug.Build.0 = Debug|Pocket PC
+		{68B0C732-9592-44BE-9438-84452B179D7B}.Debug.Deploy.0 = Debug|Pocket PC
+		{68B0C732-9592-44BE-9438-84452B179D7B}.Release.ActiveCfg = Release|Pocket PC
+		{68B0C732-9592-44BE-9438-84452B179D7B}.Release.Build.0 = Release|Pocket PC
+		{68B0C732-9592-44BE-9438-84452B179D7B}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

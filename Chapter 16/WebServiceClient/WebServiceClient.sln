@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "WebServiceClient", "WebServiceClient.vbdproj", "{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}.Debug.ActiveCfg = Debug|Pocket PC
+		{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}.Debug.Build.0 = Debug|Pocket PC
+		{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}.Debug.Deploy.0 = Debug|Pocket PC
+		{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}.Release.ActiveCfg = Release|Pocket PC
+		{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}.Release.Build.0 = Release|Pocket PC
+		{8114133D-CEFF-4B61-8D82-EFFC3DDDC7F4}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

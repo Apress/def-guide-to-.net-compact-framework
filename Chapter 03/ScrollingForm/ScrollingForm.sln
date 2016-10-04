@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "ScrollingForm", "ScrollingForm.vbdproj", "{EC83924B-3A3B-444B-B380-0BAB23562207}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EC83924B-3A3B-444B-B380-0BAB23562207}.Debug.ActiveCfg = Debug|Pocket PC
+		{EC83924B-3A3B-444B-B380-0BAB23562207}.Debug.Build.0 = Debug|Pocket PC
+		{EC83924B-3A3B-444B-B380-0BAB23562207}.Debug.Deploy.0 = Debug|Pocket PC
+		{EC83924B-3A3B-444B-B380-0BAB23562207}.Release.ActiveCfg = Release|Pocket PC
+		{EC83924B-3A3B-444B-B380-0BAB23562207}.Release.Build.0 = Release|Pocket PC
+		{EC83924B-3A3B-444B-B380-0BAB23562207}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

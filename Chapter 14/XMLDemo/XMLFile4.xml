@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Baseball [
+  <!ELEMENT Name (#PCDATA)>
+  <!ELEMENT LeagueID (#PCDATA)>
+]>
+<Baseball>
+<Name>Rangers</Name>
+<LeagueID>10</LeagueID>
+<Name>Angels</Name>
+<LeagueID>11</LeagueID>
+</Baseball>

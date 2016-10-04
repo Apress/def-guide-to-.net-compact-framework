@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "TextFrame", "TextFrame\TextFrame.vbdproj", "{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "UserSettings", "UserSettings\UserSettings.vbdproj", "{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}.Debug.ActiveCfg = Debug|Pocket PC
+		{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}.Debug.Build.0 = Debug|Pocket PC
+		{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}.Debug.Deploy.0 = Debug|Pocket PC
+		{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}.Release.ActiveCfg = Release|Pocket PC
+		{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}.Release.Build.0 = Release|Pocket PC
+		{59A9BA6B-31DE-4E09-8049-012A8E54A1EE}.Release.Deploy.0 = Release|Pocket PC
+		{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}.Debug.ActiveCfg = Debug|Pocket PC
+		{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}.Debug.Build.0 = Debug|Pocket PC
+		{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}.Debug.Deploy.0 = Debug|Pocket PC
+		{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}.Release.ActiveCfg = Release|Pocket PC
+		{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}.Release.Build.0 = Release|Pocket PC
+		{0C9B4BD8-E69E-4D24-8CBF-BA97E8423FF8}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

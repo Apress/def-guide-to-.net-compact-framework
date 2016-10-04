@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "Audit Trail", "Audit Trail.vbdproj", "{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}.Debug.ActiveCfg = Debug|Pocket PC
+		{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}.Debug.Build.0 = Debug|Pocket PC
+		{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}.Debug.Deploy.0 = Debug|Pocket PC
+		{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}.Release.ActiveCfg = Release|Pocket PC
+		{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}.Release.Build.0 = Release|Pocket PC
+		{E09B768C-E0D3-4E65-A56B-5EAD193B72A9}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

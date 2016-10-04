@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "PanelDemo", "PanelDemo.vbdproj", "{94039810-6943-4601-9BD6-12A23FE8C488}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{94039810-6943-4601-9BD6-12A23FE8C488}.Debug.ActiveCfg = Debug|Pocket PC
+		{94039810-6943-4601-9BD6-12A23FE8C488}.Debug.Build.0 = Debug|Pocket PC
+		{94039810-6943-4601-9BD6-12A23FE8C488}.Debug.Deploy.0 = Debug|Pocket PC
+		{94039810-6943-4601-9BD6-12A23FE8C488}.Release.ActiveCfg = Release|Pocket PC
+		{94039810-6943-4601-9BD6-12A23FE8C488}.Release.Build.0 = Release|Pocket PC
+		{94039810-6943-4601-9BD6-12A23FE8C488}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

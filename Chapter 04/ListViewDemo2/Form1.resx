@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Windows.Forms.Design.CFResXResourceReader, System.CF.Design, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Windows.Forms.Design.CFResXResourceWriter, System.CF.Design, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </resheader>
+  <data name="MainMenu1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="MainMenu1.Location" type="System.Drawing.Point, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="MainMenu1.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="ListView1.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="ListView1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="ListView1.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="btnLoad.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="btnLoad.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="btnLoad.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="btnToggle.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="btnToggle.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="btnToggle.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="imgLarge.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="imgLarge.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="imgLarge.Location" type="System.Drawing.Point, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 17</value>
+  </data>
+  <data name="resource" type="System.Drawing.Bitmap, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02DAAAAAAAADYAAAAoAAAAIAAAACAAAAABABgAAAAAAAAAAADDDgAAww4AAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////GIYAGIYAGIIAGIIAGIIAGIIAGH0AGH0AEH0AEHkAEHkAEHkAEHUAEHUACHUACHEA
+        CHEACHEACG0ACG0AAG0AAGkAAGkAAGkAAGkAAGkAAGUAAGUA////////////////GIYAGIYAGIYAGIIA
+        GIIAGIIAGIIAGIIAGH0AEH0AEH0AEHkAEHkAEHkAEHUACHUACHEACHEACHEACG0ACG0AAG0AAGkAAGkA
+        AGkAAGkAAGUAAGUA////////////////IYYAIYYAGIYAGIIAGIIAGIIAGIIAGIIAGH0AGH0AEH0AEH0A
+        EHkAEHkAEHUAEHUACHUACHEACHEACHEACG0ACG0AAG0AAG0AAGkAAGkAAGkAAGUA////////////////
+        IYYAIYYAGIYA////////////////////////////////////////////////////////////////////
+        ////////////////////AGkAAGkAAGkA////////////////IYoAIYYAIYYA////////////////////
+        ////////////////////////////////////////////////////////////////////AGkAAGkAAGkA
+        ////////////////IYoAIYoAIYYA////////////////////////////////////////////////////
+        ////////////////////////////////////AG0AAGkAAGkA////////////////IYoAIYoAIYoA////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////CG0AAG0AAG0A////////////////IYoAIYoAIYoA////////////////////////////////////
+        ////////////////////EHkAEHkAEHUAEHUACHUACHUACHEA////CHEACG0AAG0A////////////////
+        IY4AIYoAIYoA////IYoAIYYAIYYAIYYAGIYAGIIAGIIAGIIAGIIAGIIAGIIAGH0AEH0AEH0AEHkAEHkA
+        EHkAEHUACHUACHUA////CHEACG0ACG0A////////////////IY4AIY4AIYoA////IYoAIYoAIYoAIYYA
+        IYYAGIYAGIYAGIIAGIIAGIIAGIIAGIIA////EH0AEH0AEHkAEHkAEHkAEHUA////////CHEACHEACHEA
+        ////////////////IY4AIY4AIY4A////////IYoAIYoAIYYAIYYAGIYAGIYAGIYAGIIAGIIAGIIA////
+        GH0AGH0AGH0AEH0AEHkAEHkA////////////CHUACHEACHEA////////////////KY4AKY4AIY4A////
+        ////////IYoAIYoAIYoAIYYAGIYAGIYAGIYAGIIA////GIIAGIIAGIIAGH0AEH0AEH0AEHkA////////
+        ////EHUACHUACHEA////////////////KY4AKY4AKY4A////////////////IYoAIYoAIYoAIYYAGIYA
+        GIYA////GIIAGIIAGIIAGIIAGIIAGH0AEH0AEH0AEHkA////////EHUAEHUACHEA////////////////
+        KZIAKY4AKY4A////////////////////IYoAIYoAIYoAIYYA////GIYAGIYAGIIAGIIAGIIAGIIAGH0A
+        GH0AEH0AEH0A////////EHkAEHUACHUA////////////////KZIAKZIAKY4A////////////////////
+        ////IYoAIYoA////IYYAIYYAGIYAGIYAGIYAGIIA////////////////////////////EHkAEHkAEHUA
+        ////////////////KZIAKZIAKZIA////////////////////////IYoA////IYoAIYoAIYYAIYYAGIYA
+        GIYAGIIA////////////////////////////EHkAEHkAEHkA////////////////KZIAKZIAKZIA////
+        ////////////////IY4A////IYoAIYoAIYoAIYYAIYYAGIYAGIYAGIYAGIIA////////////////////
+        ////EH0AEHkAEHkA////////////////KZYAKZIAKZIA////////////////KY4A////IY4AIYoAIYoA
+        IYoAIYoAIYYAIYYAIYYAGIYAGIYAGIIA////////////////////GH0AEH0AEHkA////////////////
+        KZYAKZYAKZIA////////////KZIA////KY4AIY4AIY4AIY4AIYoAIYoAIYoAIYoAIYYAIYYAGIYAGIYA
+        GIYA////////////////GH0AGH0AEH0A////////////////KZYAKZYAKZYA////////KZIA////KZIA
+        KY4AKY4AIY4AIY4AIYoA////IYoAIYoAIYoAIYYAIYYAGIYAGIYAGIIA////////////GIIAGH0AGH0A
+        ////////////////KZYAKZYAKZYA////KZIA//v/KZIAKZIAKY4AKY4AKY4AKY4A////////////IYoA
+        IYoAIYYAIYYAIYYAGIYAGIYAGIIA////////GIIAGIIAGH0A////////////////MZYAMZYAKZYA////
+        KZYAKZIAKZIAKZIAKZIAKY4AKY4A////////////////////IYoAIYoAIYYAIYYAIYYAGIYAGIYA////
+        ////GIIAGIIAGIIA////////////////MZYAMZYAKZYA////////////////////////////////////
+        ////////////////////////////////////////////////////GIIAGIIAGIIA////////////////
+        MZoAMZYAMZYA////////////////////////////////////////////////////////////////////
+        ////////////////////GIYAGIIAGIIA////////////////MZoAMZoAMZYA////////////////////
+        ////////////////////////////////////////////////////////////////////GIYAGIIAGIIA
+        ////////////////MZoAMZoAMZoAMZYAMZYAMZYAKZYAKZYAKZYAKZIAKZIAKZIAKZIAKZIAKY4AKY4A
+        IY4AIY4AIYoAIYoAIYoAIYoAIYoAIYYAIYYAIYYAGIYAGIYA////////////////MZoAMZoAMZoAMZYA
+        MZYAMZYAMZYAMZYAKZYAKZYAKZIAKZIAKZIAKZIAKZIAKY4AKY4AIY4AIY4AIY4AIYoAIYoAIYoAIYoA
+        IYoAIYYAIYYAGIYA////////////////MZoAMZoAMZoAMZoAMZYAMZYAMZYAMZYAMZYAKZYAKZYAKZIA
+        KZIAKZIAKZIAKZIAKY4AKY4AIY4AIY4AIY4AIYoAIYoAIYoAIYoAIYYAIYYAIYYA////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////
+</value>
+  </data>
+  <data name="resource1" type="System.Drawing.Bitmap, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02DAAAAAAAADYAAAAoAAAAIAAAACAAAAABABgAAAAAAAAAAADDDgAAww4AAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////hIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKE
+        hIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKE////////////////////////////////////////AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhIKE
+        ////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhIKE////////////////////////////////
+        ////////AAAAAAAAxsPG////////////////////////////////////////////////////////////
+        ////AAAAAAAAhIKE////////////////////////////////////////AAAAAAAAxsPG////////////
+        ////////////////AACE////////////////////////////////AAAAAAAAhIKE////////////////
+        ////////////////////////AAAAAAAAxsPG/////////////////////////wD/AACE////////////
+        ////////////////////AAAAAAAAhIKE////////////////////////////////////////AAAAAAAA
+        xsPG////////////////////////AACEAACE/wD/////////////////////////////AAAAAAAAhIKE
+        ////////////////////////////////////////AAAAAAAAxsPG////////////////////AACEAACE
+        AACEAACE////////////////////////////AAAAAAAAhIKE////////////////////////////////
+        ////////AAAAAAAAxsPG/////////////////wD/AACEAACEAACEAACE////////////////////////
+        ////AAAAAAAAhIKE////////////////////////////////////////AAAAAAAAxsPG////////////
+        ////AACEAACEAACEAACEAACE/wD/////////////////////////AAAAAAAAhIKE////////////////
+        ////////////////////////AAAAAAAAxsPG/////////////wD/AACEAACE////AACEAACEAACE////
+        ////////////////////AAAAAAAAhIKE////////////////////////////////////////AAAAAAAA
+        xsPG////////////AACEAACE////////AACEAACEAACE////////////////////////AAAAAAAAhIKE
+        ////////////////////////////////////////AAAAAAAAxsPGAACE/wD//wD/AACEAACE////////
+        ////AACEAACEAACE////////////////////AAAAAAAAhIKE////////////////////////////////
+        ////////AAAAAAAAxsPG////AACEAACEAACE////////////////AACEAACEAACE////////////////
+        ////AAAAAAAAhIKE////////////////////////////////////////AAAAAAAAxsPG/////////wD/
+        ////////////////////////AACEAACEAACE////////////////AAAAAAAAhIKE////////////////
+        ////////////////////////AAAAAAAAxsPG////////////////////////////////////AACEAACE
+        AACE////////////////AAAAAAAAhIKE////////////////////////////////////////AAAAAAAA
+        xsPG////////////////////////////////////////AACEAACEAACE////////////AAAAAAAAhIKE
+        ////////////////////////////////////////AAAAAAAAxsPG////////////////////////////
+        /////////////wD/AACEAACE////////////AAAAAAAAhIKE////////////////////////////////
+        ////////AAAAAAAAxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGAACEAACEAACExsPG
+        xsPGAAAAAAAAhIKE////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAACEhACEAAAAAAAAAAAAhIKE////////////////
+        ////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACEAACEAAAAAAAAAAAA////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////hACEAACEAACE////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////AACEAACEhACE////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        AACEAACE////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////AACEAACE////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////AACEAACE////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////AACE
+        AACE////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////AACE////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////
+</value>
+  </data>
+  <data name="resource2" type="System.Drawing.Bitmap, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02DAAAAAAAADYAAAAoAAAAIAAAACAAAAABABgAAAAAAAAAAADDDgAAww4AAAAAAAAAAAAA////////
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAA////////////////////////////////////////AAAA////////////////////////////////
+        ////////////////////////////////////////////////////AAAA////////////////////////
+        ////////AAAA////////////////////////////////////////////////////////////////////
+        ////////////////////////AAAA////////////////////////////AAAA////AAAAAAAAAAAAAAAA
+        AAAA////AAAA////AAAAAAAAAAAAAAAAAAAA////////////////AAAAAAAAAAAA////////AAAA////
+        ////////////////////////AAAA////AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//
+        AP//AP//AP//AP//AP//AP//AP//AP//////////AAAA////////////////////////////AAAA////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////AAAA////////////////////////////AAAA/////wAA/wAA/wAA/wAA/wAA/////wAA/wAA
+        /wAA/wAA/////wAA/wAA/wAA/wAA/////wAA/wAA/wAA/wAA////////AAAA////////////////////
+        ////////AAAA/////wAA/wAA/wAA/wAA/wAA/////wAA/wAA/wAA/wAA/////wAA/wAA/wAA/wAA////
+        /wAA/wAA/wAA/wAA////////AAAAAAAA////////////////////////AAAA////////////////////
+        ////////////////////////////////////////////////////////////////////////AAAA////
+        AAAA////////////////////AAAA////////////////////AAD/AAD/AAD/AAD/////////////////
+        AACEAACEAACEAACE////////////////////////AAAA////////AAAA////////////////AAAA////
+        ////////////AAD/AAD/AAD/AAD/AAD/AAD/////////AACEAACEAACEAACEAACEAACE////////////
+        ////////AAAA////////AAAA////////////////AAAA////////////AAD/AAD/AAD/AAD/AAD/AAD/
+        AAD/AAD/AACEAACEAACEAACEAACEAACEAACEAACE////////////////AAAA////////AAAA////////
+        ////////AAAA////////////AAD/AAD/AAD/////////////AAD/AAD/////////////////////AACE
+        AACEAACE////////////////AAAA////////AAAA////////////////AAAA////////////AAD/AAD/
+        AAD/AAD/AAD/AAD/AAD/AAD/AACEAACEAACEAACEAACEAACEAACEAACE////////////////AAAA////
+        ////AAAA////////////////AAAA////////////////AAD/AAD/AAD/AAD/AAD/AAD/////////AACE
+        AACEAACEAACEAACEAACE////////////////////AAAA////////AAAAAAAAAAAA////////AAAA////
+        ////////////////AAD/AAD/AAD/AAD/////////////////AACEAACEAACEAACE////////////////
+        ////////AAAA////////AAAAxsPGxsPGAAAA////////AAAA////////////////////////////////
+        ////////////////////////////////////////////////////AAAA////////////AAAAxsPGxsPG
+        xsPGAAAA////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAA/wAA/wAA/wAA////AAAAAAAAxsPGxsPGAAAA////////////AAAA////hAAA
+        hAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA
+        ////AAAAxsPGxsPGxsPGAAAA////////////AAAA////hAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAA
+        hAAAhAAAhAAAhAAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA////AAAAxsPGxsPGxsPGAAAA////////
+        ////AAAA////hAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAA/wAA/wAA/wAA/wAA
+        /wAA/wAA/wAA/wAA////AAAAhAAAxsPGxsPGAAAA////////////AAAA////hAAAhAAAhAAAhAAAhAAA
+        hAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA////AAAAhAAAxsPG
+        xsPGAAAA////////////AAAA////////hAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAA
+        /wAA/wAA/wAA/wAA/wAA/wAA/wAA////////AAAAxsPGxsPGxsPGAAAA////////////////AAAA////
+        ////////////////////////////////////////////////////////////////////////////////
+        AAAAhAAAhAAAhAAAxsPGAAAA////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAhAAAhAAAhAAAxsPGAAAA////////
+        ////////////////////AAAAxsPGhAAAxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGhAAAhAAA
+        hAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAxsPGAAAA////////////////////////////AAAAxsPGhAAA
+        xsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAA
+        xsPGAAAA////////////////////////////AAAAxsPGhAAAxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPG
+        xsPGxsPGhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAxsPGAAAA////////////////////////
+        ////AAAAxsPGhAAAxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGhAAAhAAAhAAAhAAAhAAAhAAA
+        hAAAhAAAhAAAhAAAxsPGAAAA////////////////////////////AAAAxsPGxsPGxsPGxsPGxsPGxsPG
+        xsPGxsPGxsPGxsPGxsPGxsPGhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAhAAAxsPGxsPGAAAA////////
+        ////////////////////////AAAAxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPG
+        xsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGAAAA////////////////////////////////////////AAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ////////
+</value>
+  </data>
+  <data name="imgSmall.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="imgSmall.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="imgSmall.Location" type="System.Drawing.Point, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 17</value>
+  </data>
+  <data name="resource3" type="System.Drawing.Bitmap, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAADDDgAAww4AAAAAAAAAAAAA////////
+        ////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////AAAAxsPGxsPG
+        xsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGxsPGAAAA////////////AAAA////////////////////////
+        ////////////////xsPGAAAA////////////AAAA////xsPGxsPGxsPGxsPG////xsPGxsPGxsPG////
+        xsPGAAAA////////////AAAA////////////AIIAhIKEAIIAhIKE////xsPG////xsPGAAAAAIIAhIKE
+        AIIAhIKEAIIAhIKEAIIA////AIIAhIKEAIIA////xsPG////xsPGAAAAhIKEAIIAhIKEAIIAhIKEAIIA
+        ////AIIAhIKEAIIA////////////////xsPGAAAAAIIAhIKEAIIAhIKEAIIA////AIIAhIKEAIIAhIKE
+        xsPGxsPGxsPG////xsPGAAAA////AIIAhIKEAIIA////AIIAhIKEAIIAhIKEAIIA////////xsPG////
+        xsPGAAAA////////AIIA////AIIAhIKEAIIAhIKExsPGxsPGxsPGxsPGxsPG////xsPGAAAA////AIIA
+        ////AIIAhIKEAIIAhIKEAIIAhIKExsPG////////xsPG////xsPGAAAAAIIA////AIIAhIKEAIIAhIKE
+        AIIAhIKEAIIAhIKExsPGxsPGxsPG////xsPGAAAAhIKEAIIAhIKEAIIAhIKE////hIKEAIIAhIKEAIIA
+        ////////AAAAAAAAAAAAAAAAAIIAhIKEAIIAhIKE////////////hIKEAIIAhIKE////////AAAA////
+        AAAA////////////////AAAA////////////////////////////////AAAAAAAA////////////////
+        ////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////
+</value>
+  </data>
+  <data name="resource4" type="System.Drawing.Bitmap, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAADDDgAAww4AAAAAAAAAAAAA////////
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////AAAA////////////////
+        ////////////////////AAAA////////////////////AAAA////////////////////////////////
+        ////AAAAhIKE////////////////AAAA////////////////////////////////////AAAAhIKE////
+        ////////////AAAA////AAAA////hIKEhIKEhIKEhIKEhIKE////AAAAhIKEAAAAAAAA////////AAAA
+        ////////////////////////////////////AAAAhIKEhAAAhAAAAAAA////AAAA////AAD/////hIKE
+        hIKEhIKEhIKEhIKE////AAAAhIKEhAAAhAAAAAAA////AAAA////////////////////////////////
+        ////AAAAhIKEhAAAhAAAAAAA////AAAA////AAAA////hIKEhIKEhIKEhIKEhIKE////AAAAhIKEhAAA
+        AAAA////////AAAA////////////////////////////////////AAAAhIKEhAAAAAAA////////AAAA
+        ////AAAA////hIKEhIKEhIKEhIKEhIKE////AAAAhIKEAAAA////////////AAAA////////////////
+        ////////////////////AAAAhIKEAAAA////////////AAAA////AAAA////AAAA////AAAA////AAAA
+        ////AAAAhIKEAAAA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxsPGAAAA////
+        ////////////////////AAAAxsPGAAAAxsPGAAAAxsPGAAAAxsPGAAAA////////////////////////
+        ////////AAAA////AAAA////AAAA////AAAA////////////////////
+</value>
+  </data>
+  <data name="resource5" type="System.Drawing.Bitmap, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAADDDgAAww4AAAAAAAAAAAAA////////
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////AAAAMWWcMWWcMWWcMWWc
+        MWWcMWWcMWWcMWWcMWWcMWWcAAAAY5rOAAAA////AAAAY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rO
+        Y5rOAAAAMWWcMWWcY5rOAAAAAAAAY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOAAAA////AAAA
+        Y5rOAAAAAAAAY5rOY5rOY5rOY5rOAAAAAAAAAAAAY5rOY5rOY5rOAAAA////AAAAY5rOAAAAAAAAY5rO
+        Y5rOY5rOY5rOMWWcAAAAMWWcY5rOY5rOY5rOAAAA////AAAAY5rOAAAAAAAAY5rOY5rOY5rOY5rOY5rO
+        AAAAY5rOY5rOY5rOY5rOAAAA////AAAAY5rOAAAAAAAAY5rOY5rOY5rOY5rOAAAAAAAAAAAAY5rOY5rO
+        Y5rOAAAA////AAAAY5rOAAAAAAAAY5rOY5rOY5rOY5rOY5rOAAAAY5rOY5rOY5rOY5rOAAAA////AAAA
+        Y5rOAAAAAAAAY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOAAAA////AAAAY5rOAAAAAAAAY5rO
+        Y5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOAAAA////AAAAY5rOAAAAMWWcAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAMWWc////AAAAY5rOAAAA////AAAA////////////////////////////////
+        ////////////AAAAY5rOAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        Y5rOAAAA////////////AAAAY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOY5rOAAAA////////
+        ////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
+</value>
+  </data>
+  <data name="lblView.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="lblView.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="lblView.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.CF.Drawing, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 4</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Name">
+    <value>Form1</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>80</value>
+  </data>
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+</root>

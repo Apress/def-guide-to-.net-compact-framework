@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "RoundButton", "RoundButton.csdproj", "{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "TestApp", "TestApp\TestApp.csdproj", "{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}.Debug.ActiveCfg = Debug|Pocket PC
+		{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}.Debug.Build.0 = Debug|Pocket PC
+		{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}.Debug.Deploy.0 = Debug|Pocket PC
+		{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}.Release.ActiveCfg = Release|Pocket PC
+		{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}.Release.Build.0 = Release|Pocket PC
+		{0D2BBEB4-A278-45D9-9F08-9EB3866FB227}.Release.Deploy.0 = Release|Pocket PC
+		{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}.Debug.ActiveCfg = Debug|Pocket PC
+		{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}.Debug.Build.0 = Debug|Pocket PC
+		{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}.Debug.Deploy.0 = Debug|Pocket PC
+		{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}.Release.ActiveCfg = Release|Pocket PC
+		{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}.Release.Build.0 = Release|Pocket PC
+		{29E02B8C-6D2F-4089-AF54-F61A5EE5CCC6}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

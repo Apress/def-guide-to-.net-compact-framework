@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "UnManagedCode", "Classes\UnManagedCode.vbdproj", "{01929EB5-1235-4755-B022-E90D12A9699C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "TestForms", "TestForms\TestForms.vbdproj", "{1C4178B8-0C29-4C72-B817-02C7D6051F77}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{01929EB5-1235-4755-B022-E90D12A9699C}.Debug.ActiveCfg = Debug|Pocket PC
+		{01929EB5-1235-4755-B022-E90D12A9699C}.Debug.Build.0 = Debug|Pocket PC
+		{01929EB5-1235-4755-B022-E90D12A9699C}.Debug.Deploy.0 = Debug|Pocket PC
+		{01929EB5-1235-4755-B022-E90D12A9699C}.Release.ActiveCfg = Release|Pocket PC
+		{01929EB5-1235-4755-B022-E90D12A9699C}.Release.Build.0 = Release|Pocket PC
+		{01929EB5-1235-4755-B022-E90D12A9699C}.Release.Deploy.0 = Release|Pocket PC
+		{1C4178B8-0C29-4C72-B817-02C7D6051F77}.Debug.ActiveCfg = Debug|Pocket PC
+		{1C4178B8-0C29-4C72-B817-02C7D6051F77}.Debug.Build.0 = Debug|Pocket PC
+		{1C4178B8-0C29-4C72-B817-02C7D6051F77}.Debug.Deploy.0 = Debug|Pocket PC
+		{1C4178B8-0C29-4C72-B817-02C7D6051F77}.Release.ActiveCfg = Release|Pocket PC
+		{1C4178B8-0C29-4C72-B817-02C7D6051F77}.Release.Build.0 = Release|Pocket PC
+		{1C4178B8-0C29-4C72-B817-02C7D6051F77}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "PrinterCE .NET Demo", "PrinterCE .NET Demo.vbdproj", "{3160FA95-EE30-440A-8119-29626EBDDE13}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3160FA95-EE30-440A-8119-29626EBDDE13}.Debug.ActiveCfg = Debug|Pocket PC
+		{3160FA95-EE30-440A-8119-29626EBDDE13}.Debug.Build.0 = Debug|Pocket PC
+		{3160FA95-EE30-440A-8119-29626EBDDE13}.Debug.Deploy.0 = Debug|Pocket PC
+		{3160FA95-EE30-440A-8119-29626EBDDE13}.Release.ActiveCfg = Release|Pocket PC
+		{3160FA95-EE30-440A-8119-29626EBDDE13}.Release.Build.0 = Release|Pocket PC
+		{3160FA95-EE30-440A-8119-29626EBDDE13}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Baseball>
+	<Leagues>
+	    <League Name="American" LeagueID="10" />
+	    <League Name="National" LeagueID="11" />
+	    <League Name="Texas" LeagueID="12" />
+    </Leagues>
+    <Teams>
+        <Team Name="Texas Rangers" TeamID="1" Wins="7" Loses="9" />
+        <Team Name="Anaheim Angels" TeamID="2" Wins="8" Loses="8" />
+        <Team Name="Oakland Athletics" TeamID="3" Wins="8" Loses="8" />
+        <Team Name="Seattle Mariners" TeamID="4" Wins="9" Loses="7" />
+    </Teams>
+</Baseball>

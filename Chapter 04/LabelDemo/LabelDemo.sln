@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "LabelDemo", "LabelDemo.vbdproj", "{CFFF2436-710C-4311-BD3A-F90A5C035DBF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CFFF2436-710C-4311-BD3A-F90A5C035DBF}.Debug.ActiveCfg = Debug|Pocket PC
+		{CFFF2436-710C-4311-BD3A-F90A5C035DBF}.Debug.Build.0 = Debug|Pocket PC
+		{CFFF2436-710C-4311-BD3A-F90A5C035DBF}.Debug.Deploy.0 = Debug|Pocket PC
+		{CFFF2436-710C-4311-BD3A-F90A5C035DBF}.Release.ActiveCfg = Release|Pocket PC
+		{CFFF2436-710C-4311-BD3A-F90A5C035DBF}.Release.Build.0 = Release|Pocket PC
+		{CFFF2436-710C-4311-BD3A-F90A5C035DBF}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

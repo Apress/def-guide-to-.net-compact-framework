@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "TCPDemo", "TCPDemo.vbdproj", "{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}.Debug.ActiveCfg = Debug|Pocket PC
+		{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}.Debug.Build.0 = Debug|Pocket PC
+		{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}.Debug.Deploy.0 = Debug|Pocket PC
+		{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}.Release.ActiveCfg = Release|Pocket PC
+		{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}.Release.Build.0 = Release|Pocket PC
+		{C2ACA8D5-EE8F-46D0-BE86-12C19709C2DF}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

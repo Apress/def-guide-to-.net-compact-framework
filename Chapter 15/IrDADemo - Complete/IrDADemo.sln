@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "IrDADemo", "IrDADemo.vbdproj", "{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}.Debug.ActiveCfg = Debug|Pocket PC
+		{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}.Debug.Build.0 = Debug|Pocket PC
+		{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}.Debug.Deploy.0 = Debug|Pocket PC
+		{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}.Release.ActiveCfg = Release|Pocket PC
+		{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}.Release.Build.0 = Release|Pocket PC
+		{B3A63213-E7A5-49F4-93FE-89A0EB8B9323}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

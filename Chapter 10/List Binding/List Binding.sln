@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "List Binding", "List Binding.vbdproj", "{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}.Debug.ActiveCfg = Debug|Pocket PC
+		{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}.Debug.Build.0 = Debug|Pocket PC
+		{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}.Debug.Deploy.0 = Debug|Pocket PC
+		{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}.Release.ActiveCfg = Release|Pocket PC
+		{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}.Release.Build.0 = Release|Pocket PC
+		{CC1945F2-3D49-4B77-A2DC-61D38B3F7864}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

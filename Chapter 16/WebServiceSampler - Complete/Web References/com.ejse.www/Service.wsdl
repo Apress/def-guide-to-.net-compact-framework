@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://ejse.com/WeatherService/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://ejse.com/WeatherService/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ejse.com/WeatherService/">
+      <s:element name="GetIraqWeatherInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="city" type="s0:IraqCities" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="IraqCities">
+        <s:restriction base="s:string">
+          <s:enumeration value="AlAzamiyah" />
+          <s:enumeration value="AlBasrah" />
+          <s:enumeration value="AlHillah" />
+          <s:enumeration value="AlKarkh" />
+          <s:enumeration value="AlKazimiyah" />
+          <s:enumeration value="AlKut" />
+          <s:enumeration value="AnNasiriyah" />
+          <s:enumeration value="Baghdad" />
+          <s:enumeration value="Baqubah" />
+          <s:enumeration value="Mosul" />
+          <s:enumeration value="Nineveh" />
+          <s:enumeration value="TallKayf" />
+          <s:enumeration value="Najaf" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetIraqWeatherInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetIraqWeatherInfoResult" type="s0:WeatherInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WeatherInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Location" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IconIndex" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Temprature" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FeelsLike" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Forecast" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Visibility" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Pressure" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DewPoint" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UVIndex" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Humidity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Wind" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReportedAt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastUpdated" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetIraqExtendedWeatherInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="city" type="s0:IraqCities" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIraqExtendedWeatherInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetIraqExtendedWeatherInfoResult" type="s0:ExtendedWeatherInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ExtendedWeatherInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Info" type="s0:WeatherInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day1" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day2" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day3" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day4" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day5" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day6" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day7" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day8" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day9" type="s0:DayForecastInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DayForecastInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Day" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Date" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IconIndex" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Forecast" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="High" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Low" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrecipChance" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetWeatherInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="zipCode" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWeatherInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetWeatherInfoResult" type="s0:WeatherInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExtendedWeatherInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="zipCode" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExtendedWeatherInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetExtendedWeatherInfoResult" type="s0:ExtendedWeatherInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDayForecastInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="day" type="s0:ForecastDays" />
+            <s:element minOccurs="1" maxOccurs="1" name="zipCode" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="ForecastDays">
+        <s:restriction base="s:string">
+          <s:enumeration value="Day1" />
+          <s:enumeration value="Day2" />
+          <s:enumeration value="Day3" />
+          <s:enumeration value="Day4" />
+          <s:enumeration value="Day5" />
+          <s:enumeration value="Day6" />
+          <s:enumeration value="Day7" />
+          <s:enumeration value="Day8" />
+          <s:enumeration value="Day9" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetDayForecastInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDayForecastInfoResult" type="s0:DayForecastInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNineDayForecastInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="zipCode" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNineDayForecastInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetNineDayForecastInfoResult" type="s0:NineDayForecastInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="NineDayForecastInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Day1" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day2" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day3" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day4" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day5" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day6" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day7" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day8" type="s0:DayForecastInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Day9" type="s0:DayForecastInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WeatherInfo" type="s0:WeatherInfo" />
+      <s:element name="ExtendedWeatherInfo" type="s0:ExtendedWeatherInfo" />
+      <s:element name="DayForecastInfo" type="s0:DayForecastInfo" />
+      <s:element name="NineDayForecastInfo" type="s0:NineDayForecastInfo" />
+    </s:schema>
+  </types>
+  <message name="GetIraqWeatherInfoSoapIn">
+    <part name="parameters" element="s0:GetIraqWeatherInfo" />
+  </message>
+  <message name="GetIraqWeatherInfoSoapOut">
+    <part name="parameters" element="s0:GetIraqWeatherInfoResponse" />
+  </message>
+  <message name="GetIraqExtendedWeatherInfoSoapIn">
+    <part name="parameters" element="s0:GetIraqExtendedWeatherInfo" />
+  </message>
+  <message name="GetIraqExtendedWeatherInfoSoapOut">
+    <part name="parameters" element="s0:GetIraqExtendedWeatherInfoResponse" />
+  </message>
+  <message name="GetWeatherInfoSoapIn">
+    <part name="parameters" element="s0:GetWeatherInfo" />
+  </message>
+  <message name="GetWeatherInfoSoapOut">
+    <part name="parameters" element="s0:GetWeatherInfoResponse" />
+  </message>
+  <message name="GetExtendedWeatherInfoSoapIn">
+    <part name="parameters" element="s0:GetExtendedWeatherInfo" />
+  </message>
+  <message name="GetExtendedWeatherInfoSoapOut">
+    <part name="parameters" element="s0:GetExtendedWeatherInfoResponse" />
+  </message>
+  <message name="GetDayForecastInfoSoapIn">
+    <part name="parameters" element="s0:GetDayForecastInfo" />
+  </message>
+  <message name="GetDayForecastInfoSoapOut">
+    <part name="parameters" element="s0:GetDayForecastInfoResponse" />
+  </message>
+  <message name="GetNineDayForecastInfoSoapIn">
+    <part name="parameters" element="s0:GetNineDayForecastInfo" />
+  </message>
+  <message name="GetNineDayForecastInfoSoapOut">
+    <part name="parameters" element="s0:GetNineDayForecastInfoResponse" />
+  </message>
+  <message name="GetIraqWeatherInfoHttpGetIn">
+    <part name="city" type="s:string" />
+  </message>
+  <message name="GetIraqWeatherInfoHttpGetOut">
+    <part name="Body" element="s0:WeatherInfo" />
+  </message>
+  <message name="GetIraqExtendedWeatherInfoHttpGetIn">
+    <part name="city" type="s:string" />
+  </message>
+  <message name="GetIraqExtendedWeatherInfoHttpGetOut">
+    <part name="Body" element="s0:ExtendedWeatherInfo" />
+  </message>
+  <message name="GetWeatherInfoHttpGetIn">
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetWeatherInfoHttpGetOut">
+    <part name="Body" element="s0:WeatherInfo" />
+  </message>
+  <message name="GetExtendedWeatherInfoHttpGetIn">
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetExtendedWeatherInfoHttpGetOut">
+    <part name="Body" element="s0:ExtendedWeatherInfo" />
+  </message>
+  <message name="GetDayForecastInfoHttpGetIn">
+    <part name="day" type="s:string" />
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetDayForecastInfoHttpGetOut">
+    <part name="Body" element="s0:DayForecastInfo" />
+  </message>
+  <message name="GetNineDayForecastInfoHttpGetIn">
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetNineDayForecastInfoHttpGetOut">
+    <part name="Body" element="s0:NineDayForecastInfo" />
+  </message>
+  <message name="GetIraqWeatherInfoHttpPostIn">
+    <part name="city" type="s:string" />
+  </message>
+  <message name="GetIraqWeatherInfoHttpPostOut">
+    <part name="Body" element="s0:WeatherInfo" />
+  </message>
+  <message name="GetIraqExtendedWeatherInfoHttpPostIn">
+    <part name="city" type="s:string" />
+  </message>
+  <message name="GetIraqExtendedWeatherInfoHttpPostOut">
+    <part name="Body" element="s0:ExtendedWeatherInfo" />
+  </message>
+  <message name="GetWeatherInfoHttpPostIn">
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetWeatherInfoHttpPostOut">
+    <part name="Body" element="s0:WeatherInfo" />
+  </message>
+  <message name="GetExtendedWeatherInfoHttpPostIn">
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetExtendedWeatherInfoHttpPostOut">
+    <part name="Body" element="s0:ExtendedWeatherInfo" />
+  </message>
+  <message name="GetDayForecastInfoHttpPostIn">
+    <part name="day" type="s:string" />
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetDayForecastInfoHttpPostOut">
+    <part name="Body" element="s0:DayForecastInfo" />
+  </message>
+  <message name="GetNineDayForecastInfoHttpPostIn">
+    <part name="zipCode" type="s:string" />
+  </message>
+  <message name="GetNineDayForecastInfoHttpPostOut">
+    <part name="Body" element="s0:NineDayForecastInfo" />
+  </message>
+  <portType name="ServiceSoap">
+    <operation name="GetIraqWeatherInfo">
+      <documentation>Returns weather information for a valid Iraq city.</documentation>
+      <input message="s0:GetIraqWeatherInfoSoapIn" />
+      <output message="s0:GetIraqWeatherInfoSoapOut" />
+    </operation>
+    <operation name="GetIraqExtendedWeatherInfo">
+      <documentation>Returns extended weather information for a valid given Iraq city.</documentation>
+      <input message="s0:GetIraqExtendedWeatherInfoSoapIn" />
+      <output message="s0:GetIraqExtendedWeatherInfoSoapOut" />
+    </operation>
+    <operation name="GetWeatherInfo">
+      <documentation>Returns weather information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetWeatherInfoSoapIn" />
+      <output message="s0:GetWeatherInfoSoapOut" />
+    </operation>
+    <operation name="GetExtendedWeatherInfo">
+      <documentation>Returns extended weather information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetExtendedWeatherInfoSoapIn" />
+      <output message="s0:GetExtendedWeatherInfoSoapOut" />
+    </operation>
+    <operation name="GetDayForecastInfo">
+      <documentation>Returns weather forecast information for a valid given U.S. zipcode and day.</documentation>
+      <input message="s0:GetDayForecastInfoSoapIn" />
+      <output message="s0:GetDayForecastInfoSoapOut" />
+    </operation>
+    <operation name="GetNineDayForecastInfo">
+      <documentation>Returns nine day forecast information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetNineDayForecastInfoSoapIn" />
+      <output message="s0:GetNineDayForecastInfoSoapOut" />
+    </operation>
+  </portType>
+  <portType name="ServiceHttpGet">
+    <operation name="GetIraqWeatherInfo">
+      <documentation>Returns weather information for a valid Iraq city.</documentation>
+      <input message="s0:GetIraqWeatherInfoHttpGetIn" />
+      <output message="s0:GetIraqWeatherInfoHttpGetOut" />
+    </operation>
+    <operation name="GetIraqExtendedWeatherInfo">
+      <documentation>Returns extended weather information for a valid given Iraq city.</documentation>
+      <input message="s0:GetIraqExtendedWeatherInfoHttpGetIn" />
+      <output message="s0:GetIraqExtendedWeatherInfoHttpGetOut" />
+    </operation>
+    <operation name="GetWeatherInfo">
+      <documentation>Returns weather information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetWeatherInfoHttpGetIn" />
+      <output message="s0:GetWeatherInfoHttpGetOut" />
+    </operation>
+    <operation name="GetExtendedWeatherInfo">
+      <documentation>Returns extended weather information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetExtendedWeatherInfoHttpGetIn" />
+      <output message="s0:GetExtendedWeatherInfoHttpGetOut" />
+    </operation>
+    <operation name="GetDayForecastInfo">
+      <documentation>Returns weather forecast information for a valid given U.S. zipcode and day.</documentation>
+      <input message="s0:GetDayForecastInfoHttpGetIn" />
+      <output message="s0:GetDayForecastInfoHttpGetOut" />
+    </operation>
+    <operation name="GetNineDayForecastInfo">
+      <documentation>Returns nine day forecast information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetNineDayForecastInfoHttpGetIn" />
+      <output message="s0:GetNineDayForecastInfoHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="ServiceHttpPost">
+    <operation name="GetIraqWeatherInfo">
+      <documentation>Returns weather information for a valid Iraq city.</documentation>
+      <input message="s0:GetIraqWeatherInfoHttpPostIn" />
+      <output message="s0:GetIraqWeatherInfoHttpPostOut" />
+    </operation>
+    <operation name="GetIraqExtendedWeatherInfo">
+      <documentation>Returns extended weather information for a valid given Iraq city.</documentation>
+      <input message="s0:GetIraqExtendedWeatherInfoHttpPostIn" />
+      <output message="s0:GetIraqExtendedWeatherInfoHttpPostOut" />
+    </operation>
+    <operation name="GetWeatherInfo">
+      <documentation>Returns weather information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetWeatherInfoHttpPostIn" />
+      <output message="s0:GetWeatherInfoHttpPostOut" />
+    </operation>
+    <operation name="GetExtendedWeatherInfo">
+      <documentation>Returns extended weather information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetExtendedWeatherInfoHttpPostIn" />
+      <output message="s0:GetExtendedWeatherInfoHttpPostOut" />
+    </operation>
+    <operation name="GetDayForecastInfo">
+      <documentation>Returns weather forecast information for a valid given U.S. zipcode and day.</documentation>
+      <input message="s0:GetDayForecastInfoHttpPostIn" />
+      <output message="s0:GetDayForecastInfoHttpPostOut" />
+    </operation>
+    <operation name="GetNineDayForecastInfo">
+      <documentation>Returns nine day forecast information for a valid given U.S. zipcode.</documentation>
+      <input message="s0:GetNineDayForecastInfoHttpPostIn" />
+      <output message="s0:GetNineDayForecastInfoHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="ServiceSoap" type="s0:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetIraqWeatherInfo">
+      <soap:operation soapAction="http://ejse.com/WeatherService/GetIraqWeatherInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetIraqExtendedWeatherInfo">
+      <soap:operation soapAction="http://ejse.com/WeatherService/GetIraqExtendedWeatherInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetWeatherInfo">
+      <soap:operation soapAction="http://ejse.com/WeatherService/GetWeatherInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetExtendedWeatherInfo">
+      <soap:operation soapAction="http://ejse.com/WeatherService/GetExtendedWeatherInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDayForecastInfo">
+      <soap:operation soapAction="http://ejse.com/WeatherService/GetDayForecastInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNineDayForecastInfo">
+      <soap:operation soapAction="http://ejse.com/WeatherService/GetNineDayForecastInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ServiceHttpGet" type="s0:ServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="GetIraqWeatherInfo">
+      <http:operation location="/GetIraqWeatherInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetIraqExtendedWeatherInfo">
+      <http:operation location="/GetIraqExtendedWeatherInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetWeatherInfo">
+      <http:operation location="/GetWeatherInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetExtendedWeatherInfo">
+      <http:operation location="/GetExtendedWeatherInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetDayForecastInfo">
+      <http:operation location="/GetDayForecastInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetNineDayForecastInfo">
+      <http:operation location="/GetNineDayForecastInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="ServiceHttpPost" type="s0:ServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="GetIraqWeatherInfo">
+      <http:operation location="/GetIraqWeatherInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetIraqExtendedWeatherInfo">
+      <http:operation location="/GetIraqExtendedWeatherInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetWeatherInfo">
+      <http:operation location="/GetWeatherInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetExtendedWeatherInfo">
+      <http:operation location="/GetExtendedWeatherInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetDayForecastInfo">
+      <http:operation location="/GetDayForecastInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetNineDayForecastInfo">
+      <http:operation location="/GetNineDayForecastInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service">
+    <port name="ServiceSoap" binding="s0:ServiceSoap">
+      <soap:address location="http://www.ejse.com/WeatherService/Service.asmx" />
+    </port>
+    <port name="ServiceHttpGet" binding="s0:ServiceHttpGet">
+      <http:address location="http://www.ejse.com/WeatherService/Service.asmx" />
+    </port>
+    <port name="ServiceHttpPost" binding="s0:ServiceHttpPost">
+      <http:address location="http://www.ejse.com/WeatherService/Service.asmx" />
+    </port>
+  </service>
+</definitions>

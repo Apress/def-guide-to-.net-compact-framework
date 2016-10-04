@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "ListViewDemo2", "ListViewDemo2.vbdproj", "{813B1155-2635-4C9F-ABB0-360DCBB07D12}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{813B1155-2635-4C9F-ABB0-360DCBB07D12}.Debug.ActiveCfg = Debug|Pocket PC
+		{813B1155-2635-4C9F-ABB0-360DCBB07D12}.Debug.Build.0 = Debug|Pocket PC
+		{813B1155-2635-4C9F-ABB0-360DCBB07D12}.Debug.Deploy.0 = Debug|Pocket PC
+		{813B1155-2635-4C9F-ABB0-360DCBB07D12}.Release.ActiveCfg = Release|Pocket PC
+		{813B1155-2635-4C9F-ABB0-360DCBB07D12}.Release.Build.0 = Release|Pocket PC
+		{813B1155-2635-4C9F-ABB0-360DCBB07D12}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

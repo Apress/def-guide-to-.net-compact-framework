@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "Text File Demo", "Text File Demo.VBDPROJ", "{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}.Debug.ActiveCfg = Debug|Pocket PC
+		{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}.Debug.Build.0 = Debug|Pocket PC
+		{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}.Debug.Deploy.0 = Debug|Pocket PC
+		{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}.Release.ActiveCfg = Release|Pocket PC
+		{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}.Release.Build.0 = Release|Pocket PC
+		{EBA2CF98-9E31-435B-9D7C-8A3997867A7A}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

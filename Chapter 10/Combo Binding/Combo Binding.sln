@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "Combo Binding", "Combo Binding.vbdproj", "{995D58DA-BAED-4706-A7A5-C4795656E878}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{995D58DA-BAED-4706-A7A5-C4795656E878}.Debug.ActiveCfg = Debug|Pocket PC
+		{995D58DA-BAED-4706-A7A5-C4795656E878}.Debug.Build.0 = Debug|Pocket PC
+		{995D58DA-BAED-4706-A7A5-C4795656E878}.Debug.Deploy.0 = Debug|Pocket PC
+		{995D58DA-BAED-4706-A7A5-C4795656E878}.Release.ActiveCfg = Release|Pocket PC
+		{995D58DA-BAED-4706-A7A5-C4795656E878}.Release.Build.0 = Release|Pocket PC
+		{995D58DA-BAED-4706-A7A5-C4795656E878}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

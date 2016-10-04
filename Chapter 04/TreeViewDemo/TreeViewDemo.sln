@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "TreeViewDemo", "TreeViewDemo.vbdproj", "{F30965E3-E525-478B-9B9A-D162DFEE875A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F30965E3-E525-478B-9B9A-D162DFEE875A}.Debug.ActiveCfg = Debug|Pocket PC
+		{F30965E3-E525-478B-9B9A-D162DFEE875A}.Debug.Build.0 = Debug|Pocket PC
+		{F30965E3-E525-478B-9B9A-D162DFEE875A}.Debug.Deploy.0 = Debug|Pocket PC
+		{F30965E3-E525-478B-9B9A-D162DFEE875A}.Release.ActiveCfg = Release|Pocket PC
+		{F30965E3-E525-478B-9B9A-D162DFEE875A}.Release.Build.0 = Release|Pocket PC
+		{F30965E3-E525-478B-9B9A-D162DFEE875A}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "TrackBarDemo", "TrackBarDemo.vbdproj", "{0FCD594C-91B1-4923-A34C-74C576DD722E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0FCD594C-91B1-4923-A34C-74C576DD722E}.Debug.ActiveCfg = Debug|Pocket PC
+		{0FCD594C-91B1-4923-A34C-74C576DD722E}.Debug.Build.0 = Debug|Pocket PC
+		{0FCD594C-91B1-4923-A34C-74C576DD722E}.Debug.Deploy.0 = Debug|Pocket PC
+		{0FCD594C-91B1-4923-A34C-74C576DD722E}.Release.ActiveCfg = Release|Pocket PC
+		{0FCD594C-91B1-4923-A34C-74C576DD722E}.Release.Build.0 = Release|Pocket PC
+		{0FCD594C-91B1-4923-A34C-74C576DD722E}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

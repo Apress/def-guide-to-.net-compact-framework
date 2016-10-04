@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "ImageListDemo", "ImageListDemo.vbdproj", "{08D59C10-9006-4139-9B22-58D8D87E583F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{08D59C10-9006-4139-9B22-58D8D87E583F}.Debug.ActiveCfg = Debug|Pocket PC
+		{08D59C10-9006-4139-9B22-58D8D87E583F}.Debug.Build.0 = Debug|Pocket PC
+		{08D59C10-9006-4139-9B22-58D8D87E583F}.Debug.Deploy.0 = Debug|Pocket PC
+		{08D59C10-9006-4139-9B22-58D8D87E583F}.Release.ActiveCfg = Release|Pocket PC
+		{08D59C10-9006-4139-9B22-58D8D87E583F}.Release.Build.0 = Release|Pocket PC
+		{08D59C10-9006-4139-9B22-58D8D87E583F}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "ButtonTest", "ButtonTest.vbdproj", "{0C56FF8E-1055-45C2-8896-47C0A4B789A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Debug.ActiveCfg = Debug|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Debug.Build.0 = Debug|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Debug.Deploy.0 = Debug|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Release.ActiveCfg = Release|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Release.Build.0 = Release|Pocket PC
+		{0C56FF8E-1055-45C2-8896-47C0A4B789A3}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{CB4CE8C6-1BDB-4DC7-A4D3-65A1999772F8}") = "NumericUpDownDemo", "NumericUpDownDemo.vbdproj", "{E7AAAD56-C740-44B4-B634-3FBA65F02F60}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E7AAAD56-C740-44B4-B634-3FBA65F02F60}.Debug.ActiveCfg = Debug|Pocket PC
+		{E7AAAD56-C740-44B4-B634-3FBA65F02F60}.Debug.Build.0 = Debug|Pocket PC
+		{E7AAAD56-C740-44B4-B634-3FBA65F02F60}.Debug.Deploy.0 = Debug|Pocket PC
+		{E7AAAD56-C740-44B4-B634-3FBA65F02F60}.Release.ActiveCfg = Release|Pocket PC
+		{E7AAAD56-C740-44B4-B634-3FBA65F02F60}.Release.Build.0 = Release|Pocket PC
+		{E7AAAD56-C740-44B4-B634-3FBA65F02F60}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
